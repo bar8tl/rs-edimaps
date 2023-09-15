@@ -1,0 +1,14 @@
+r#"
+{
+  "sqlst": [
+    {"objnm": "cd_index", "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS cd_index (tabid TEXT, tabus TEXT, PRIMARY KEY (tabid));"},
+    {"objnm": "cd_codes", "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS cd_codes (tabid TEXT, cdkey TEXT, cdtext TEXT, PRIMARY KEY (tabid, cdkey));"},
+    {"objnm": "cd_data",  "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS cd_data  (tabid TEXT, cdkey TEXT, relshp1 TEXT, relshp2 TEXT, PRIMARY KEY (tabid, cdkey));"},
+    {"objnm": "indix",    "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS indix    (mapid TEXT, ctmrs TEXT, ctmrl TEXT, messg TEXT, mvers TEXT, idocm TEXT, idoct TEXT, mstat TEXT, fname TEXT, relsd TEXT, chgnr TEXT, suprt TEXT, asgnd TEXT, dstat TEXT, msgtp TEXT, PRIMARY KEY (mapid, chgnr));"},
+    {"objnm": "headers",  "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS headers  (mapid TEXT, chgnr TEXT, mptit TEXT, lupdt TEXT, authr TEXT, bvers TEXT, cstmr TEXT, tgtfm TEXT, srcfm TEXT, rowno TEXT, seqno TEXT, PRIMARY KEY (mapid, chgnr));"},
+    {"objnm": "groups",   "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS groups   (mapid TEXT, chgnr TEXT, grpid TEXT, gtext TEXT, lpmax TEXT, stats TEXT, dtext TEXT, chang TEXT, rowno TEXT, seqno TEXT);"},
+    {"objnm": "segments", "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS segments (mapid TEXT, chgnr TEXT, grpid TEXT, segid TExT, sgmtp TEXT, lpmax TEXT, stats TEXT, dtext TEXT, chang TEXT, rowno TEXT, seqno TEXT);"},
+    {"objnm": "fields",   "activ": "yes", "sqlst": "CREATE TABLE IF NOT EXISTS fields   (mapid TEXT, chgnr TEXT, grpid TEXT, segid TEXT, targt TEXT, sourc TEXT, rcond TEXT, commt TEXT, dtext TEXT, chang TEXT, rowno TEXT, seqno TEXT, sampl TEXT);"}
+  ]
+}
+"#

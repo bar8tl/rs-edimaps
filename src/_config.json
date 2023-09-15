@@ -1,0 +1,7 @@
+{
+  "progm": {
+    "dbodr": ".\\",
+    "inpdr": ".\\files\\input\\",
+    "outdr": ".\\files\\output\\"
+  }
+}

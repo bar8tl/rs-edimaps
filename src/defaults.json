@@ -1,0 +1,40 @@
+r#"
+{
+  "progm": {
+    "dbonm": "edimaps.db",
+    "dbodr": ".\\",
+    "inpdr": ".\\files\\input\\",
+    "outdr": ".\\files\\output\\",
+    "trims": "no", "nodat": "yes", "omite": "no", "ndchr": "¤", "lfchr": "\\n",
+    "outpt": [
+      {"otype": "text",    "activ": "yes", "ofile": "<mapid-mvers_idocm>.txt"},
+      {"otype": "xml",     "activ": "no",  "ofile": "<mapid-mvers_idocm>.xml"},
+      {"otype": "json",    "activ": "yes", "ofile": "<mapid-mvers_idocm>.json"},
+      {"otype": "sqlite3", "activ": "yes", "ofile": "edimaps.db"}
+    ]
+  },
+  "run": [
+    {"optcd": "cdb", "objnm": "indix",    "activ": "yes"},
+    {"optcd": "cdb", "objnm": "cd_index", "activ": "yes"},
+    {"optcd": "cdb", "objnm": "cd_codes", "activ": "yes"},
+    {"optcd": "cdb", "objnm": "cd_data",  "activ": "yes"},
+    {"optcd": "cdb", "objnm": "headers",  "activ": "yes"},
+    {"optcd": "cdb", "objnm": "groups",   "activ": "yes"},
+    {"optcd": "cdb", "objnm": "segments", "activ": "yes"},
+    {"optcd": "cdb", "objnm": "fields",   "activ": "yes"},
+    {"optcd": "lrf", "objnm": "indix",
+     "inpdr": "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\_index\\",
+     "fname": "_edirbna_mapping-index.xlsx", "tabid": "idx", "activ": "yes"},
+    {"optcd": "lrf", "objnm": "cd_codes",
+     "inpdr": "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\_edibb~1\\_assets\\sapcodes\\",
+     "fname": "_codes.json",  "activ": "yes"},
+    {"optcd": "lrf", "objnm": "cd_data",
+     "inpdr": "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\_edibb~1\\_assets\\sapcodes\\",
+     "fname": "_transp.json", "activ": "yes"},
+    {"optcd": "des", "objnm": "auto",
+     "mapdr": "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\",
+     "inpdr": "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\_index\\",
+     "fname": "_edirbna_mapping-index.xlsx", "tabid": "idx"}
+  ]
+}
+"#
