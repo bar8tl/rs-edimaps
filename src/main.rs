@@ -4,10 +4,12 @@
 mod dbase;
 mod mapspecs;
 mod settings;
+mod utils;
 
 fn main() {
-  let optns = ["cdb", "lrf", "des"];
-  let funcs = [dbase::crea_tables, dbase::load_refdata, mapspecs::deser_mapspec];
+  let optns = ["cdb", "lrf", "des", "dsp"];
+  let funcs = [dbase::crea_tables, dbase::load_refdata, mapspecs::deser_mapspec,
+    dbase::dspl_mapspecs];
   let stg = settings::SettingsTp::new_settings();
   let t = stg.clone();
   for p in t.prm.cmdpr {

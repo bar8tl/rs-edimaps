@@ -1,10 +1,11 @@
 //**********************************************************************************
 // mapspecs.rs: Starts archive processes for EDI messages mapping specifications
-// (2019-07-01 BAR8TL)
+// (2019-07-01 bar8tl)
 //**********************************************************************************
 #![allow(unused_assignments)]
 
 use crate::settings::SettingsTp;
+use crate::utils::fmt_outvalues;
 use calamine::{Reader, Xlsx, open_workbook, RangeDeserializerBuilder, Error};
 use chrono::{Datelike, Duration, NaiveDate};
 use rusqlite::Connection;
@@ -64,8 +65,7 @@ fn proc_mapcrl(s: SettingsTp) {
     .unwrap();
   for (j, i) in iter.enumerate() {
     let l: CrlinTp = i.expect("Row not mapped");
-    cl = [l.0, l.1, l.2, l.3, l.4, l.5, l.6];
-    fmt_outvalues(&mut cl, &cr.trims, &cr.lfchr);
+    cl = fmt_outvalues([l.0,l.1,l.2,l.3,l.4,l.5,l.6], &cr.trims, &cr.lfchr);
     cr.rowno = format!("{:04}", j);
     proc_linebyline(&cnn, &mut cr, &cl);
   }
@@ -74,7 +74,7 @@ fn proc_mapcrl(s: SettingsTp) {
 fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
   // Header lines
   if cr.inhdr.len() == 0 {
-    if cl[1].contains("Common Mapping") {
+    if cl[1].to_lowercase().contains("common mapping") {
       prep_crhdr(cl, cr);
       cr.frgrp = false;
       return();
@@ -85,7 +85,7 @@ fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
       isrt_crhdr(cnn, cl, cr);
 
   // Control record lines
-    } else if cl[2].to_lowercase().starts_with("control record:") {
+    } else if cl[2].to_lowercase().contains("control record:") {
       cr.ingrp = "CTRL".to_string();
       isrt_cregrp(cnn, cr);
       isrt_crsgms(cnn, cl, cr);
@@ -93,11 +93,11 @@ fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
 
   // First section or first segment lines after Header or Control record
   } else if cr.ingrp == "CTRL" {
-    if cl[2].to_lowercase().contains("section:") {
+    if cl[2].to_lowercase().contains("section") {
       cr.frgrp = true;
       isrt_crgrps(cnn, cl, cr);
     } else
-    if cl[2].to_lowercase().starts_with("segment:") {
+    if cl[2].to_lowercase().contains("segment") {
       if !cr.frgrp {
         cr.ingrp = "MAIN".to_string();
         isrt_cregrp(cnn, cr);
@@ -110,10 +110,10 @@ fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
 
   // Subsequent section and segment lines
   } else {
-    if cl[2].to_lowercase().contains("section:") {
+    if cl[2].to_lowercase().contains("section") {
       isrt_crgrps(cnn, cl, cr);
     } else
-    if cl[2].to_lowercase().starts_with("segment:") {
+    if cl[2].to_lowercase().contains("segment:") {
       isrt_crsgms(cnn, cl, cr);
     } else {
       isrt_crflds(cnn, cl, cr);
@@ -128,6 +128,8 @@ fn init_crdata(s: &SettingsTp, cnn: &Connection, cr: &mut CrTp) {
   cr.lfchr = s.lfchr.clone();
   cr.endcl = false;
   cr.strdt = NaiveDate::from_ymd_opt(1900, 1, 1).expect("Error in start date");
+  cnn.execute("DELETE FROM mapspecs where mapid=?1 and chgnr=?2;",
+   (&cr.mapid, &cr.chgnr)).expect("Table not reset");
   cnn.execute("DELETE FROM headers  where mapid=?1 and chgnr=?2;",
    (&cr.mapid, &cr.chgnr)).expect("Table not reset");
   cnn.execute("DELETE FROM groups   where mapid=?1 and chgnr=?2;",
@@ -167,6 +169,9 @@ fn isrt_crhdr(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
      (&cr.mapid, &cr.chgnr, &cr.hdr.mptit, lstup, &cr.hdr.authr, &cr.hdr.bvers,
       &cr.hdr.custm, &cr.hdr.tform, &cr.hdr.sform, &cr.rowno, &seqno))
      .expect("Header row not inserted");
+    cnn.execute("INSERT INTO mapspecs VALUES (?1,?2,?3,?4,?5,?6,?7)",
+     (&cr.mapid, &cr.chgnr, &"".to_string(), &"".to_string(), &"".to_string(),
+      &cr.rowno, &seqno)).expect("Mapspecs row not inserted");
     if cr.chgnr.len() > 0 {
       cr.ingrp = "CTRL".to_string();
     }
@@ -181,6 +186,9 @@ fn isrt_cregrp(cnn: &Connection, cr: &mut CrTp) {
    (&cr.mapid, &cr.chgnr, &cr.ingrp, &"".to_string(), &"".to_string(),
     &"".to_string(), &"".to_string(), &"".to_string(), &cr.rowno, &seqno))
    .expect("Section row not inserted");
+  cnn.execute("INSERT INTO mapspecs VALUES (?1,?2,?3,?4,?5,?6,?7)",
+   (&cr.mapid, &cr.chgnr, &cr.ingrp, &"".to_string(), &"".to_string(),
+    &cr.rowno, &seqno)).expect("Mapspecs row not inserted");
 }
 
 fn isrt_crgrps(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
@@ -194,6 +202,9 @@ fn isrt_crgrps(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
    (&cr.mapid, &cr.chgnr, &cr.ingrp, &cl[3], &cl[4], &cl[5], &cl[0], &cl[1],
     &cr.rowno, &seqno))
    .expect("Section row not inserted");
+  cnn.execute("INSERT INTO mapspecs VALUES (?1,?2,?3,?4,?5,?6,?7)",
+   (&cr.mapid, &cr.chgnr, &cr.ingrp, &"".to_string(), &"".to_string(),
+    &cr.rowno, &seqno)).expect("Mapspecs row not inserted");
 }
 
 fn isrt_crsgms(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
@@ -211,6 +222,9 @@ fn isrt_crsgms(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
    (&cr.mapid, &cr.chgnr, &cr.ingrp, &cr.insgm, &sgmtp, &cl[4], &cl[5], &cl[0],
     &cl[1], &cr.rowno, &seqno))
    .expect("Segment row not inserted");
+  cnn.execute("INSERT INTO mapspecs VALUES (?1,?2,?3,?4,?5,?6,?7)",
+   (&cr.mapid, &cr.chgnr, &cr.ingrp, &cr.insgm, &"".to_string(),
+    &cr.rowno, &seqno)).expect("Mapspecs row not inserted");
 }
 
 fn isrt_crflds(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
@@ -223,15 +237,9 @@ fn isrt_crflds(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
      (&cr.mapid, &cr.chgnr, &cr.ingrp, &cr.insgm, &cl[2], &cl[3], &cl[4], &cl[5],
       &cl[0], &cl[1], &cr.rowno, &seqno, &cl[6]))
      .expect("Field row not inserted");
-  }
-}
-
-fn fmt_outvalues(cl: &mut [String; 7], trims: &String, lfchr: &String) {
-  for i in 0..cl.len() {
-    cl[i] = cl[i].replace("\r\n", lfchr);
-    if trims == "yes" {
-      cl[i] = cl[i].trim().to_string();
-    }
+    cnn.execute("INSERT INTO mapspecs VALUES (?1,?2,?3,?4,?5,?6,?7)",
+     (&cr.mapid, &cr.chgnr, &cr.ingrp, &cr.insgm, &cl[2],
+      &cr.rowno, &seqno)).expect("Mapspecs row not inserted");
   }
 }
 

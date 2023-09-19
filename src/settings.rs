@@ -1,10 +1,10 @@
 //**********************************************************************************
-// settings.rs : Define pgm-level & run-level settings (2017-05-24 bar8tl)
+// settings.rs : Define pgm-level & run-level settings (2019-07-01 bar8tl)
 //**********************************************************************************
 #![allow(unused)]
 
 use crate::settings::config::ConfigTp;
-use calamine::{Reader, Xlsx, open_workbook, RangeDeserializerBuilder, Error};
+use crate::utils::{IdxkeyTp, read_index};
 use chrono::Local;
 use chrono::NaiveDateTime;
 use rblib::params::{ParamsTp, ParameTp};
@@ -47,6 +47,7 @@ pub struct SettingsTp {
   pub suprt: String,
   pub asgnd: String,
   pub dstat: String,
+  pub templ: String,
   pub msgtp: String,
   pub dtsys: NaiveDateTime,
   pub dtcur: NaiveDateTime,
@@ -102,7 +103,7 @@ impl SettingsTp {
         if p.optn == "crt" || p.optn == "lrf" {
           if run.activ.len() > 0 { self.activ = run.activ.clone(); }
         }
-        if p.optn == "lrf" || p.optn == "des" {
+        if p.optn == "lrf" || p.optn == "des" || p.optn == "dsp" {
           if run.inpdr.len() > 0 { self.inpdr = run.inpdr.clone(); }
           if run.fname.len() > 0 { self.fname = run.fname.clone(); }
           if run.tabid.len() > 0 { self.tabid = run.tabid.clone(); }
@@ -116,7 +117,7 @@ impl SettingsTp {
         if p.optn == "cdb" || p.optn == "lrf" {
           if run.activ.len() > 0 { self.activ = run.activ.clone(); }
         }
-        if p.optn == "lrf" || p.optn == "des" {
+        if p.optn == "lrf" || p.optn == "des" || p.optn == "dsp" {
           if run.inpdr.len() > 0 { self.inpdr = run.inpdr.clone(); }
           if run.fname.len() > 0 { self.fname = run.fname.clone(); }
           if run.tabid.len() > 0 { self.tabid = run.tabid.clone(); }
@@ -128,7 +129,7 @@ impl SettingsTp {
     if p.optn == "lrf" {
       self.inppt = format!("{}{}", self.inpdr, self.fname);
     }
-    if p.optn == "des" {
+    if p.optn == "des" || p.optn == "dsp" {
       self.idxpt = format!("{}{}", self.inpdr, self.fname);
       if p.prm2.len() > 0 {
         let flds: Vec<&str> = p.prm2.split('.').collect();
@@ -137,28 +138,25 @@ impl SettingsTp {
           self.sbobj = flds[1].to_string();
         }
       }
+    }
+    if p.optn == "des" {
       self.get_mapdetail();
     }
   }
 
   pub fn get_mapdetail(&mut self) {
-    let mut workbook:Xlsx<_> = open_workbook(&self.idxpt).expect("Input not found");
-    let range = workbook.worksheet_range(self.tabid.as_str())
-      .ok_or(Error::Msg("Cannot find specified tab")).unwrap().unwrap();
-    let iter = RangeDeserializerBuilder::new().from_range(&range).unwrap();
-    for i in iter {
-     (self.mapid, self.ctmrs, self.ctmrl, self.messg, self.mvers, self.idocm,
-      self.idocm, self.mstat, self.fname, self.relsd, self.chgnr, self.suprt,
-      self.asgnd, self.dstat) = i.expect("Row not mapped");
-      if self.mapid == self.objnm && self.chgnr == self.sbobj {
-        self.msgtp =
-          if self.messg == "invoice" || self.messg == "810" { "inv".to_string()
-        } else {
-          if self.messg == "desadv"  || self.messg == "856" { "asn".to_string()
-        } else { "crl".to_string() }};
-        break;
-      }
-    }
+    let indx = read_index(IdxkeyTp{
+      mapid: self.objnm.clone(), chgnr: self.sbobj.clone(),
+      idxpt: self.idxpt.clone(), tabid: self.tabid.clone()}, "SINGLE");
+    (self.mapid, self.ctmrs, self.ctmrl, self.messg, self.mvers, self.idocm,
+     self.idocm, self.mstat, self.fname, self.relsd, self.chgnr, self.suprt,
+     self.asgnd, self.dstat, self.templ, self.msgtp) =
+    (indx[0][0] .clone(), indx[0][1] .clone(), indx[0][2] .clone(),
+     indx[0][3] .clone(), indx[0][4] .clone(), indx[0][5] .clone(),
+     indx[0][6] .clone(), indx[0][7] .clone(), indx[0][8] .clone(),
+     indx[0][9] .clone(), indx[0][10].clone(), indx[0][11].clone(),
+     indx[0][12].clone(), indx[0][13].clone(), indx[0][14].clone(),
+     indx[0][15].clone());
   }
 }
 
