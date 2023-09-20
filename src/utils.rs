@@ -28,9 +28,9 @@ pub fn read_index(p: IdxkeyTp, mode: &str) -> Vec<IdxrowTp> {
     cl = [mapid.clone(), ctmrs, ctmrl, messg.clone(), mvers, idocm, idoct, mstat,
           fname, relsd, chgnr.clone(), suprt, asgnd, dstat, templ, String::new()];
     cl[15] =
-      if messg == "invoice" || messg == "810" { "inv".to_string() } else {
-      if messg == "desadv"  || messg == "856" { "asn".to_string() } else {
-                                                "crl".to_string() }};
+      if messg == "invoic" || messg == "810" { "inv".to_string() } else {
+      if messg == "desadv" || messg == "856" { "asn".to_string() } else {
+                                               "crl".to_string() }};
     if mode == "SINGLE" {
       if mapid == p.mapid && chgnr == p.chgnr {
         cell.push(cl.clone());

@@ -69,6 +69,7 @@ fn proc_mapcrl(s: SettingsTp) {
     cr.rowno = format!("{:04}", j);
     proc_linebyline(&cnn, &mut cr, &cl);
   }
+  println!("Records |{:4}|{:4}|{:4}|{:4}|", cr.sqhdr, cr.sqgrp, cr.sqsgm, cr.sqfld);
 }
 
 fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
@@ -85,7 +86,8 @@ fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
       isrt_crhdr(cnn, cl, cr);
 
   // Control record lines
-    } else if cl[2].to_lowercase().contains("control record:") {
+    } else if cl[2].to_lowercase().contains("control record"   ) ||
+              cl[2].to_lowercase().contains("edi segment/field") {
       cr.ingrp = "CTRL".to_string();
       isrt_cregrp(cnn, cr);
       isrt_crsgms(cnn, cl, cr);
@@ -93,7 +95,8 @@ fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
 
   // First section or first segment lines after Header or Control record
   } else if cr.ingrp == "CTRL" {
-    if cl[2].to_lowercase().contains("section") {
+    if cl[2].to_lowercase().contains("section") ||
+       cl[2].to_lowercase().contains("group"  ) {
       cr.frgrp = true;
       isrt_crgrps(cnn, cl, cr);
     } else
@@ -110,7 +113,8 @@ fn proc_linebyline(cnn: &Connection, cr: &mut CrTp, cl: &[String; 7]) {
 
   // Subsequent section and segment lines
   } else {
-    if cl[2].to_lowercase().contains("section") {
+    if cl[2].to_lowercase().contains("section") ||
+       cl[2].to_lowercase().contains("group"  ) {
       isrt_crgrps(cnn, cl, cr);
     } else
     if cl[2].to_lowercase().contains("segment:") {
@@ -244,7 +248,11 @@ fn isrt_crflds(cnn: &Connection, cl: &[String; 7], cr: &mut CrTp) {
 }
 
 // in=EDI Invoices (810,INVOICE). New and changes ----------------------------------
-fn proc_mapinv(_s: SettingsTp) {}
+fn proc_mapinv(s: SettingsTp) {
+  if s.templ == "outcm" {
+    proc_mapcrl(s);
+  }
+}
 
 // as=EDI ASNs (856,DESADV). New and changes ---------------------------------------
 fn proc_mapasn(_s: SettingsTp) {}

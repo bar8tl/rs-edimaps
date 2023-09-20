@@ -10,7 +10,7 @@ use chrono::NaiveDateTime;
 use rblib::params::{ParamsTp, ParameTp};
 use rusqlite::Connection;
 
-const DEFAULTS: &str  = include!("defaults.json");
+const DEFAULTS: &str = include!("defaults.json");
 
 #[derive(Debug, Clone, Default)]
 pub struct SettingsTp {
