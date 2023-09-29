@@ -1,14 +1,11 @@
 //**********************************************************************************
 // settings.rs : Define pgm-level & run-level settings (2019-07-01 bar8tl)
 //**********************************************************************************
-#![allow(unused)]
-
 use crate::settings::config::ConfigTp;
 use crate::utils::{IdxkeyTp, read_index};
 use chrono::Local;
 use chrono::NaiveDateTime;
 use rblib::params::{ParamsTp, ParameTp};
-use rusqlite::Connection;
 
 const DEFAULTS: &str = include!("defaults.json");
 
@@ -229,7 +226,7 @@ mod config {
     #[serde(default)]
     pub progm: ProgmTp,
     #[serde(default)]
-    pub run:   Vec<RunTp>
+    pub run  : Vec<RunTp>
   }
 
   impl ConfigTp {
@@ -239,8 +236,11 @@ mod config {
     }
 
     pub fn get_config(&mut self, fname: &str) {
-      let f = File::open(fname).unwrap();
-      let cfg: ConfigTp = from_reader(f).unwrap();
+      let mut cfg: ConfigTp = Default::default();
+      match File::open(fname) {
+        Ok(f)  => { cfg = from_reader(f).expect("Error Deserializing JSON"); },
+        Err(_) => {},
+      };
       self.progm = cfg.progm;
       self.run   = cfg.run;
     }

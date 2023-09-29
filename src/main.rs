@@ -1,5 +1,5 @@
 //**********************************************************************************
-// main.rs: Starts processes for EDI mapping specs archiving (2019-07-01 bar8tl)
+// main.rs: Starts processes for EDI-Mapping-Specs archiving (2019-07-01 bar8tl)
 //**********************************************************************************
 mod dbase;
 mod mapspecs;
