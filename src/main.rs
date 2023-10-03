@@ -8,8 +8,12 @@ mod utils;
 
 fn main() {
   let optns = ["cdb", "lrf", "des", "dsp"];
-  let funcs = [dbase::crea_tables, dbase::load_refdata, mapspecs::deser_mapspec,
-    dbase::dspl_mapspecs];
+  let funcs = [
+    dbase   ::crea_tables,   // Set/Reset DB tables
+    dbase   ::load_refdata,  // Upload reference tables to DB
+    mapspecs::deser_mapspec, // Deserialize xlsx mapping specs to DB
+    dbase   ::dspl_mapspecs  // Display mapping specs data
+  ];
   let stg = settings::SettingsTp::new_settings();
   let t = stg.clone();
   for p in t.prm.cmdpr {
