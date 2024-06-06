@@ -1,0 +1,279 @@
+07.11.2023             Dynamic List Display                                                                      1
+
+IDoc Number : 0000003073900824
+
+	Technical Name	Description	Value
+
+	EDIDC	Control Record
+	DIRECT	Direction	2  : Inbound
+	DOCREL	Release	750
+	STATUS	Status	53 :Application document posted
+	IDOCTYP	Basic Type	53 :Delivery Schedule/JIT Schedule
+	CIMTYP	Enhancement	53 :
+	MESTYP	Message Type	DELINS
+	MESCOD	Message Variant
+	MESFCT	Message Function
+	CREDAT	Created On	20231106
+	CRETIM	Created At	003026
+	SNDPOR	Sender Port	EDIMANVTB
+	SNDPRT	Sender Partn. Type	KU
+	SNDPRN	Sender Partner Number	1000905000
+	RCVPOR	Receiver Port	SAPPOE
+	RCVPRT	Receiver Partner Type	LS
+	RVCPRN	Receiver Partner Number	SAPPOE011
+	STD	EDI Standard
+	STDVRS	EDI Version	D
+	STDMES	EDI Message Type	DELFOR
+	EDIDD	Data Records
+	SEGNUM	Segment Number	000001
+	SEGNAM	Segment Name	E1EDK09
+	VTRNR	Contract number	633978
+	BSTDK	Customer Purchase Order Date	20231106
+	LABNK	Customer number for forecast /	20231105232085484
+	ABRVW	Usage Indicator	S
+	KTEXT_V	Search term for product propos	00004872
+	SEGNUM	Segment Number	000002
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	AG   : Sold-to party
+	PARTN	Partner number	00004872
+	LIFNR	Vendor number at customer loca	0931780129987
+	SEGNUM	Segment Number	000003
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	AB
+	PARTN	Partner number	G034E1
+	SEGNUM	Segment Number	000004
+	SEGNAM	Segment Name	E1EDP10
+	IDNKD	Material number of customer	988332989R
+	ARKTX	EDI product short text	XE-CAPTEUR DETECTION
+	KWERK	Customer plant	09317801299870023
+	DFABL	Unloading point at customer lo	G034E1
+	LABKY	Delivery schedule key	1
+	ABRAB	Dlv. sched. valid from	20231110
+	ABRBI	SA rel. valid to	20231210
+	SCREL	Release schedule	03
+	ABNRD	Delivery Schedule Date	20231110
+	SEGNUM	Segment Number	000005
+	SEGNAM	Segment Name	E1EDP15
+	TDNAME	EDI text function	YAQU
+	SPRAS	Language Key	EN
+	TXT01	Text continued	CUST
+	SEGNUM	Segment Number	000006
+	SEGNAM	Segment Name	E1EDP15
+	TDNAME	EDI text function	YADT
+	SPRAS	Language Key	EN
+	TXT01	Text continued	1200
+	TXT02	Text continued	XE-CAPTEUR DETECTION
+	TXT03	Text continued	IS
+	TXT04	Text continued	.
+	TXT05	Text continued	1300
+	TXT06	Text continued	PCE
+	SEGNUM	Segment Number	000007
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231110
+	EZEIT	Release order time	0830
+	EDATUB	Schedule line date until	20231110
+	WMENG	Released quantity	0.000
+	SEGNUM	Segment Number	000008
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231114
+	EZEIT	Release order time	0830
+	EDATUB	Schedule line date until	20231114
+	WMENG	Released quantity	3888.000
+	SEGNUM	Segment Number	000009
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231117
+	EZEIT	Release order time	0830
+	EDATUB	Schedule line date until	20231117
+	WMENG	Released quantity	0.000
+	SEGNUM	Segment Number	000010
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231121
+	EZEIT	Release order time	0000
+	EDATUB	Schedule line date until	20231121
+	WMENG	Released quantity	3888.000
+	SEGNUM	Segment Number	000011
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231124
+	EZEIT	Release order time	0000
+	EDATUB	Schedule line date until	20231124
+	WMENG	Released quantity	0.000
+	SEGNUM	Segment Number	000012
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231128
+	EZEIT	Release order time	0000
+	EDATUB	Schedule line date until	20231128
+	WMENG	Released quantity	0.000
+	SEGNUM	Segment Number	000013
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231201
+	EZEIT	Release order time	0000
+	EDATUB	Schedule line date until	20231201
+	WMENG	Released quantity	3888.000
+	SEGNUM	Segment Number	000014
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	4
+	PRGRS	Date type	W  : Week
+	EDATUV	Schedule line date from	20231204
+	EZEIT	Release order time	0000
+	EDATUB	Schedule line date until	20231210
+	WMENG	Released quantity	0.000
+	EDIDS	Status Records
+	EDIDS	Status Record Number	  1
+	STATUS	Status Value	50 : IDoc added
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003026
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003026
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  2
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV1081
+	STATXT	Message	Bitte Folgebelege beachten
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  3
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4040
+	STATXT	Message	Die Materialfreigabe wurde reduziert
+	STAPA1	Parameter1	000010
+	STAPA2	Parameter2	            366.260
+	STAPA3	Parameter3	            409.956
+	STAPA4	Parameter4	ST
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  4
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4041
+	STATXT	Message	Die Fertigungsfreigabe wurde reduziert
+	STAPA1	Parameter1	000010
+	STAPA2	Parameter2	            366.260
+	STAPA3	Parameter3	            409.956
+	STAPA4	Parameter4	ST
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  5
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV1152
+	STATXT	Message	Dynamische Kreditprüfung: Kreditlimit überschritten & &
+	STAPA1	Parameter1	                         89.698.503,25
+	STAPA2	Parameter2	EUR
+	STAPA3	Parameter3	    NOK
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  6
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4040
+	STATXT	Message	Die Materialfreigabe wurde reduziert
+	STAPA1	Parameter1	000010
+	STAPA2	Parameter2	            366.260
+	STAPA3	Parameter3	            409.956
+	STAPA4	Parameter4	ST
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program	SAPLVED4
+	ROUTID	Status set by program	IDOC_INPUT_DELINS
+	EDIDS	Status Record Number	  7
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4041
+	STATXT	Message	Die Fertigungsfreigabe wurde reduziert
+	STAPA1	Parameter1	000010
+	STAPA2	Parameter2	            366.260
+	STAPA3	Parameter3	            409.956
+	STAPA4	Parameter4	ST
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program	SAPLVED4
+	ROUTID	Status set by program	IDOC_INPUT_DELINS
+	EDIDS	Status Record Number	  8
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4030
+	STATXT	Message	Abruf-IDoc &2 zu Lieferplan &1 wurde erfolgreich verarbeitet
+	STAPA1	Parameter1	0024809550
+	STAPA2	Parameter2	0000003073900824
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003620
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program	SAPLVED4
+	ROUTID	Status set by program	IDOC_INPUT_DELINS
+	EDIDS	Status Record Number	  9
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV1311
+	STATXT	Message	&1 &2 wurde gesichert
+	STAPA1	Parameter1	JITLP MLB Strecke
+	STAPA2	Parameter2	24809550
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003619
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	 10
+	STATUS	Status Value	62 : IDoc passed to application
+	STAMQU/STAMID/STAMNO	Status Code	SAPB1042
+	STATXT	Message	Direktaufruf gestartet
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003616
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003620
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program	SAPLBD20
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	 11
+	STATUS	Status Value	64 : IDoc ready to be passed to application
+	STAMQU/STAMID/STAMNO	Status Code	SAPB1005
+	STATXT	Message	& &, &, &.
+	STAPA2	Parameter2	No filters
+	STAPA3	Parameter3	No conversion
+	STAPA4	Parameter4	No version change
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	003026
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	003026
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program	SAPLEDIR
+	ROUTID	Status set by program	IDOC_STATUS_64OR65_SET

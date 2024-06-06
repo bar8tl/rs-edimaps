@@ -1,0 +1,4064 @@
+{
+  "ssegm": [
+    {
+      "instn": 0,
+      "cntrl": [
+        {
+          "key": "TABNAM",
+          "val": "EDI_DC40"
+        },
+        {
+          "key": "MANDT",
+          "val": "011"
+        },
+        {
+          "key": "DOCNUM",
+          "val": "0000002382843157"
+        },
+        {
+          "key": "DOCREL",
+          "val": "750"
+        },
+        {
+          "key": "STATUS",
+          "val": "14"
+        },
+        {
+          "key": "DIRECT",
+          "val": "1"
+        },
+        {
+          "key": "OUTMOD",
+          "val": "2"
+        },
+        {
+          "key": "IDOCTYP",
+          "val": "INVOIC02"
+        },
+        {
+          "key": "CIMTYP",
+          "val": "/RB04/YP3_INVOIC02_XML"
+        },
+        {
+          "key": "MESTYP",
+          "val": "INVOIC"
+        },
+        {
+          "key": "SNDPOR",
+          "val": "SAPPOE"
+        },
+        {
+          "key": "SNDPRT",
+          "val": "LS"
+        },
+        {
+          "key": "SNDPRN",
+          "val": "SAPPOE011"
+        },
+        {
+          "key": "RCVPOR",
+          "val": "EDIMANVTB"
+        },
+        {
+          "key": "RCVPRT",
+          "val": "KU"
+        },
+        {
+          "key": "RCVPFC",
+          "val": "i2"
+        },
+        {
+          "key": "RCVPRN",
+          "val": "xr4BME"
+        },
+        {
+          "key": "CREDAT",
+          "val": "20220421"
+        },
+        {
+          "key": "CRETIM",
+          "val": "024849"
+        },
+        {
+          "key": "SERIAL",
+          "val": "20220421024849"
+        }
+      ],
+      "rsegm": [
+        {
+          "segmn": "/RB04/YP3_INVOIC02_XML",
+          "recno": 0,
+          "level": 0,
+          "qlkey": "",
+          "qlval": "",
+          "instn": 0,
+          "field": [],
+          "child": [
+            {
+              "segmn": "E2EDK01005",
+              "recno": 1,
+              "level": 1,
+              "qlkey": "",
+              "qlval": "",
+              "instn": 1,
+              "field": [
+                {
+                  "key": "CURCY",
+                  "val": "USD"
+                },
+                {
+                  "key": "HWAER",
+                  "val": "MXN"
+                },
+                {
+                  "key": "WKURS",
+                  "val": "20.41480"
+                },
+                {
+                  "key": "ZTERM",
+                  "val": "L160"
+                },
+                {
+                  "key": "BSART",
+                  "val": "INVO"
+                },
+                {
+                  "key": "BELNR",
+                  "val": "0237179334"
+                },
+                {
+                  "key": "NTGEW",
+                  "val": "855.571"
+                },
+                {
+                  "key": "BRGEW",
+                  "val": "855.571"
+                },
+                {
+                  "key": "GEWEI",
+                  "val": "KGM"
+                },
+                {
+                  "key": "FKART_RL",
+                  "val": "LR"
+                },
+                {
+                  "key": "RECIPNT_NO",
+                  "val": "1000001805"
+                },
+                {
+                  "key": "FKTYP",
+                  "val": "A"
+                }
+              ],
+              "child": [
+                {
+                  "segmn": "/RB04/YP3_E1EDK01_XML001",
+                  "recno": 2,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "DATE_TIME",
+                      "val": "2022-04-21T02:44:53"
+                    },
+                    {
+                      "key": "DOC_SUB_TOTAL",
+                      "val": "13652.26"
+                    },
+                    {
+                      "key": "DOC_TOTAL",
+                      "val": "17116.8200"
+                    },
+                    {
+                      "key": "EXCHANGE_RATE",
+                      "val": "20.41480"
+                    },
+                    {
+                      "key": "CURRENCY",
+                      "val": "USD"
+                    },
+                    {
+                      "key": "ORI_ODN_NUMBER",
+                      "val": "0237175951"
+                    },
+                    {
+                      "key": "ORI_DATE_TIME",
+                      "val": "2022-02-14"
+                    },
+                    {
+                      "key": "DOC_TOTAL_IN_WDS",
+                      "val": "DIECISIETE MIL CIENTO DIECISEIS Y 82/100 USD"
+                    },
+                    {
+                      "key": "ORI_ODN_BILL_TYP",
+                      "val": "YF21"
+                    },
+                    {
+                      "key": "ISSUING_PLACE",
+                      "val": "Toluca México"
+                    },
+                    {
+                      "key": "ACCOUNT_NUMBER",
+                      "val": "4616"
+                    },
+                    {
+                      "key": "PAY_TERM",
+                      "val": "PP"
+                    },
+                    {
+                      "key": "PAY_METHOD",
+                      "val": "D99"
+                    },
+                    {
+                      "key": "USOCFDI",
+                      "val": "G0"
+                    },
+                    {
+                      "key": "RELATION_TYPE",
+                      "val": "10"
+                    },
+                    {
+                      "key": "ORI_UUID",
+                      "val": "2EA64F0A6-A14E-4FCD-8673-48420AF8EA1"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDKA1003",
+                  "recno": 3,
+                  "level": 2,
+                  "qlkey": "PARVW",
+                  "qlval": "RS",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "PARVW",
+                      "val": "RS"
+                    },
+                    {
+                      "key": "LIFNR",
+                      "val": "1000001805"
+                    },
+                    {
+                      "key": "NAME1",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    },
+                    {
+                      "key": "STRAS",
+                      "val": "Robert Bosch 405"
+                    },
+                    {
+                      "key": "ORT01",
+                      "val": "Toluca"
+                    },
+                    {
+                      "key": "PSTLZ",
+                      "val": "50071"
+                    },
+                    {
+                      "key": "LAND1",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "TELF1",
+                      "val": "722-279-2300"
+                    },
+                    {
+                      "key": "SPRAS",
+                      "val": "E"
+                    },
+                    {
+                      "key": "ORT02",
+                      "val": "Zona Industrial"
+                    },
+                    {
+                      "key": "REGIO",
+                      "val": "MEX"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "DIP2TL"
+                    },
+                    {
+                      "key": "PAORG",
+                      "val": "904W"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDKA1003",
+                  "recno": 4,
+                  "level": 2,
+                  "qlkey": "PARVW",
+                  "qlval": "AG",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "PARVW",
+                      "val": "AG"
+                    },
+                    {
+                      "key": "PARTN",
+                      "val": "1000001805"
+                    },
+                    {
+                      "key": "NAME1",
+                      "val": "FORD MOTOR CO SA DE CV"
+                    },
+                    {
+                      "key": "STRAS",
+                      "val": "GUILLERMO GLEZ. CAMARENA 1500"
+                    },
+                    {
+                      "key": "ORT01",
+                      "val": "ALVARO OBREGON"
+                    },
+                    {
+                      "key": "PSTLZ",
+                      "val": "01210"
+                    },
+                    {
+                      "key": "LAND1",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "TELF1",
+                      "val": "55-1103-3503"
+                    },
+                    {
+                      "key": "SPRAS",
+                      "val": "E"
+                    },
+                    {
+                      "key": "ORT02",
+                      "val": "CENTRO DE CIUDAD SANTA FE"
+                    },
+                    {
+                      "key": "REGIO",
+                      "val": "CMX"
+                    },
+                    {
+                      "key": "SPRAS_ISO",
+                      "val": "EN"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDKA1_XML001",
+                      "recno": 5,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "REG_TAX_NUMBER",
+                          "val": "FMO8304236C5"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDKA1003",
+                  "recno": 6,
+                  "level": 2,
+                  "qlkey": "PARVW",
+                  "qlval": "RE",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "PARVW",
+                      "val": "RE"
+                    },
+                    {
+                      "key": "PARTN",
+                      "val": "1000001805"
+                    },
+                    {
+                      "key": "NAME1",
+                      "val": "FORD MOTOR CO SA DE CV"
+                    },
+                    {
+                      "key": "STRAS",
+                      "val": "GUILLERMO GLEZ. CAMARENA 1500"
+                    },
+                    {
+                      "key": "ORT01",
+                      "val": "ALVARO OBREGON"
+                    },
+                    {
+                      "key": "PSTLZ",
+                      "val": "01210"
+                    },
+                    {
+                      "key": "LAND1",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "TELF1",
+                      "val": "55-1103-3503"
+                    },
+                    {
+                      "key": "SPRAS",
+                      "val": "E"
+                    },
+                    {
+                      "key": "ORT02",
+                      "val": "CENTRO DE CIUDAD SANTA FE"
+                    },
+                    {
+                      "key": "REGIO",
+                      "val": "CMX"
+                    },
+                    {
+                      "key": "SPRAS_ISO",
+                      "val": "EN"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDKA1_XML001",
+                      "recno": 7,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "REG_TAX_NUMBER",
+                          "val": "FMO8304236C5"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDKA1003",
+                  "recno": 8,
+                  "level": 2,
+                  "qlkey": "PARVW",
+                  "qlval": "RG",
+                  "instn": 4,
+                  "field": [
+                    {
+                      "key": "PARVW",
+                      "val": "RG"
+                    },
+                    {
+                      "key": "PARTN",
+                      "val": "1000001805"
+                    },
+                    {
+                      "key": "NAME1",
+                      "val": "FORD MOTOR CO SA DE CV"
+                    },
+                    {
+                      "key": "STRAS",
+                      "val": "GUILLERMO GLEZ. CAMARENA 1500"
+                    },
+                    {
+                      "key": "ORT01",
+                      "val": "ALVARO OBREGON"
+                    },
+                    {
+                      "key": "PSTLZ",
+                      "val": "01210"
+                    },
+                    {
+                      "key": "LAND1",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "TELF1",
+                      "val": "55-1103-3503"
+                    },
+                    {
+                      "key": "SPRAS",
+                      "val": "E"
+                    },
+                    {
+                      "key": "ORT02",
+                      "val": "CENTRO DE CIUDAD SANTA FE"
+                    },
+                    {
+                      "key": "REGIO",
+                      "val": "CMX"
+                    },
+                    {
+                      "key": "SPRAS_ISO",
+                      "val": "EN"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDKA1_XML001",
+                      "recno": 9,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "REG_TAX_NUMBER",
+                          "val": "FMO8304236C5"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDKA1003",
+                  "recno": 10,
+                  "level": 2,
+                  "qlkey": "PARVW",
+                  "qlval": "BK",
+                  "instn": 5,
+                  "field": [
+                    {
+                      "key": "PARVW",
+                      "val": "BK"
+                    },
+                    {
+                      "key": "LIFNR",
+                      "val": "904W"
+                    },
+                    {
+                      "key": "NAME1",
+                      "val": "ROBERT BOSCH S DE RL DE CV"
+                    },
+                    {
+                      "key": "STRAS",
+                      "val": "Robert Bosch No.405 Zona Industrial"
+                    },
+                    {
+                      "key": "ORT01",
+                      "val": "Toluca"
+                    },
+                    {
+                      "key": "COUNC",
+                      "val": "MEX"
+                    },
+                    {
+                      "key": "PSTLZ",
+                      "val": "50071"
+                    },
+                    {
+                      "key": "LAND1",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "TELF1",
+                      "val": "52 722 279 2300"
+                    },
+                    {
+                      "key": "REGIO",
+                      "val": "MEX"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDKA1_XML001",
+                      "recno": 11,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "REG_TAX_NUMBER",
+                          "val": "RBO910102QJ9"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 12,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "009",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "009"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "0237179334"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220420"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 13,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "001",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "001"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "SF9KB4"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 14,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "002",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "002"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "0034786978"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220420"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 15,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "017",
+                  "instn": 4,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "017"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "0237179334"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 16,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "012",
+                  "instn": 5,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "012"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "1225640933"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220214"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 17,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "064",
+                  "instn": 6,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "064"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "0016248581"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220214"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK02",
+                  "recno": 18,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "087",
+                  "instn": 7,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "087"
+                    },
+                    {
+                      "key": "BELNR",
+                      "val": "0237179334"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK03",
+                  "recno": 19,
+                  "level": 2,
+                  "qlkey": "IDDAT",
+                  "qlval": "026",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "IDDAT",
+                      "val": "026"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220420"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK03",
+                  "recno": 20,
+                  "level": 2,
+                  "qlkey": "IDDAT",
+                  "qlval": "012",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "IDDAT",
+                      "val": "012"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220421"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK03",
+                  "recno": 21,
+                  "level": 2,
+                  "qlkey": "IDDAT",
+                  "qlval": "011",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "IDDAT",
+                      "val": "011"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220421"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK03",
+                  "recno": 22,
+                  "level": 2,
+                  "qlkey": "IDDAT",
+                  "qlval": "024",
+                  "instn": 4,
+                  "field": [
+                    {
+                      "key": "IDDAT",
+                      "val": "024"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220420"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK03",
+                  "recno": 23,
+                  "level": 2,
+                  "qlkey": "IDDAT",
+                  "qlval": "028",
+                  "instn": 5,
+                  "field": [
+                    {
+                      "key": "IDDAT",
+                      "val": "028"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220607"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK03",
+                  "recno": 24,
+                  "level": 2,
+                  "qlkey": "IDDAT",
+                  "qlval": "048",
+                  "instn": 6,
+                  "field": [
+                    {
+                      "key": "IDDAT",
+                      "val": "048"
+                    },
+                    {
+                      "key": "DATUM",
+                      "val": "20220214"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK04001",
+                  "recno": 25,
+                  "level": 2,
+                  "qlkey": "MWSKZ",
+                  "qlval": "B2",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "MWSKZ",
+                      "val": "B2"
+                    },
+                    {
+                      "key": "MSATZ",
+                      "val": "16.000"
+                    },
+                    {
+                      "key": "MWSBT",
+                      "val": "8.08"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDK04_XML000",
+                      "recno": 26,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "TEXT",
+                          "val": "IVA"
+                        },
+                        {
+                          "key": "RATE",
+                          "val": "16.00"
+                        },
+                        {
+                          "key": "TAX_AMOUNT",
+                          "val": "8.08"
+                        },
+                        {
+                          "key": "TOTAL_TAX_AMOUNT",
+                          "val": "8.08"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDK17",
+                  "recno": 27,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "001",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "001"
+                    },
+                    {
+                      "key": "LKOND",
+                      "val": "FCA"
+                    },
+                    {
+                      "key": "LKTEXT",
+                      "val": "Free Carrier"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK17",
+                  "recno": 28,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "002",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "002"
+                    },
+                    {
+                      "key": "LKOND",
+                      "val": "FCA"
+                    },
+                    {
+                      "key": "LKTEXT",
+                      "val": "BOSCH PLANT"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK18",
+                  "recno": 29,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "001",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "001"
+                    },
+                    {
+                      "key": "TAGE",
+                      "val": "48"
+                    },
+                    {
+                      "key": "PRZNT",
+                      "val": "0"
+                    },
+                    {
+                      "key": "ZTERM_TXT",
+                      "val": "Up to 07.06.2022 without deduction"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK18",
+                  "recno": 30,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "005",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "005"
+                    },
+                    {
+                      "key": "ZTERM_TXT",
+                      "val": "Net 19th,25th,1st,7th,13 sub"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 31,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "BNMXMXMM"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "Banco Nacional de Mexico SA"
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "Mexico"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "0230046042"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 32,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "BNMXMXMM"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "Banco Nacional de Mexico SA"
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "Mexico"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "0230046042"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 33,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "DE"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "60070070"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "Deutsche Bank AG"
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "Stuttgart"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "160482600"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 34,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 4,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "US"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "071000288"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "FW071000288 HARRIS N.A."
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "Chicago, 60606"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "3864147"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 35,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 5,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "DE"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "10101010"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "ITS Hausbank / Inhousebank"
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "GERLINGEN"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "000000904W"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 36,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 6,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "DE"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "10101010"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "ITS Hausbank / Inhousebank"
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "GERLINGEN"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "000000904W"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 37,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 7,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "US"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "021000021"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "FW021000021 J.P. Morgan Chase Bank"
+                    },
+                    {
+                      "key": "BALOC",
+                      "val": "New York"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "695692159"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 38,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 8,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "000000001"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "HAUSBANK"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "9999999999"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK28001",
+                  "recno": 39,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 9,
+                  "field": [
+                    {
+                      "key": "BCOUN",
+                      "val": "DE"
+                    },
+                    {
+                      "key": "BRNUM",
+                      "val": "99999997"
+                    },
+                    {
+                      "key": "BNAME",
+                      "val": "SFP Confirming Platform Banco Santander (no cashflow)"
+                    },
+                    {
+                      "key": "ACNUM",
+                      "val": "1000003203"
+                    },
+                    {
+                      "key": "ACNAM",
+                      "val": "Robert Bosch S.de R.L.de C.V."
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK29003",
+                  "recno": 40,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "EXNUM",
+                      "val": "0060745573"
+                    },
+                    {
+                      "key": "ALAND",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "GRWCU",
+                      "val": "MXN"
+                    },
+                    {
+                      "key": "LAND1",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "LANDX",
+                      "val": "Mexico"
+                    },
+                    {
+                      "key": "LANDA",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "FREIH",
+                      "val": "3"
+                    },
+                    {
+                      "key": "JAP05",
+                      "val": "305"
+                    },
+                    {
+                      "key": "ALANX",
+                      "val": "Mexico"
+                    },
+                    {
+                      "key": "ALANA",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "ALSCH",
+                      "val": "MX"
+                    },
+                    {
+                      "key": "FREIHTX",
+                      "val": "NAFTA"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 41,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "008",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "008"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "904W"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 42,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "007",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "007"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "E0"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 43,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "006",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "006"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "01"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 44,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "015",
+                  "instn": 4,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "015"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "YL41"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 45,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "003",
+                  "instn": 5,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "003"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "904W"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 46,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "021",
+                  "instn": 6,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "021"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "P"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDK14",
+                  "recno": 47,
+                  "level": 2,
+                  "qlkey": "QUALF",
+                  "qlval": "016",
+                  "instn": 7,
+                  "field": [
+                    {
+                      "key": "QUALF",
+                      "val": "016"
+                    },
+                    {
+                      "key": "ORGID",
+                      "val": "1004"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDP01011",
+                  "recno": 48,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "POSEX",
+                      "val": "000001"
+                    },
+                    {
+                      "key": "MENGE",
+                      "val": "768.000"
+                    },
+                    {
+                      "key": "MENEE",
+                      "val": "PCE"
+                    },
+                    {
+                      "key": "NTGEW",
+                      "val": "380.544"
+                    },
+                    {
+                      "key": "GEWEI",
+                      "val": "KGM"
+                    },
+                    {
+                      "key": "BRGEW",
+                      "val": "380.544"
+                    },
+                    {
+                      "key": "PSTYV",
+                      "val": "YL2M"
+                    },
+                    {
+                      "key": "WERKS",
+                      "val": "E622"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDP01_XML001",
+                      "recno": 49,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "UNIT_PRICE",
+                          "val": "0.029297"
+                        },
+                        {
+                          "key": "AMOUNT",
+                          "val": "22.50"
+                        },
+                        {
+                          "key": "PROD_CODE",
+                          "val": "25172300"
+                        },
+                        {
+                          "key": "UOM_CODE",
+                          "val": "H87"
+                        },
+                        {
+                          "key": "ORI_ODN_NUMBER",
+                          "val": "0237175951"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 50,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "SF9KB4"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 51,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "0034786978"
+                        },
+                        {
+                          "key": "ZEILE",
+                          "val": "000011"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 52,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "016",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "016"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "0034786978"
+                        },
+                        {
+                          "key": "ZEILE",
+                          "val": "000011"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 53,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "029",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "029"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 54,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "011",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "011"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220421"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 55,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "025",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "025"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220421"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 56,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "027",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "027"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220214"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 57,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "023",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "023"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220214"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 58,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "M1PB 17C495 AA"
+                        },
+                        {
+                          "key": "IDTNR_EXTERNAL",
+                          "val": "M1PB 17C495 AA"
+                        },
+                        {
+                          "key": "IDTNR_GUID",
+                          "val": "00000000000000000000000000000000"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 59,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "33981571276DV"
+                        },
+                        {
+                          "key": "KTEXT",
+                          "val": "Wiper Arm-And-Blade Assy"
+                        },
+                        {
+                          "key": "IDTNR_EXTERNAL",
+                          "val": "33981571276DV"
+                        },
+                        {
+                          "key": "IDTNR_GUID",
+                          "val": "4A8FF1F7F7021EDA86EF41B58AA988FE"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 60,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "007",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "007"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "8512900799"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 61,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "006",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "006"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "3398157127P"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 62,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "011",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "011"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "MX"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 63,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "004",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "004"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "26.10"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 64,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "003",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "003"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "22.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 65,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "010",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "010"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "5872.59"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 66,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "011",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "011"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "22.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 67,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "012",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "012"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "5872.59"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 68,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "013",
+                      "instn": 6,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "013"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "5872.59"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 69,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "014",
+                      "instn": 7,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "014"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "22.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 70,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "015",
+                      "instn": 8,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "015"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "5872.59"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 71,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 9,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "0"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 72,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 10,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "22.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDPA1003",
+                      "recno": 73,
+                      "level": 3,
+                      "qlkey": "PARVW",
+                      "qlval": "RG",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "PARVW",
+                          "val": "RG"
+                        },
+                        {
+                          "key": "PARTN",
+                          "val": "1000001805"
+                        },
+                        {
+                          "key": "NAME1",
+                          "val": "FORD MOTOR CO SA DE CV"
+                        },
+                        {
+                          "key": "STRAS",
+                          "val": "GUILLERMO GLEZ. CAMARENA 1500"
+                        },
+                        {
+                          "key": "ORT01",
+                          "val": "ALVARO OBREGON"
+                        },
+                        {
+                          "key": "PSTLZ",
+                          "val": "01210"
+                        },
+                        {
+                          "key": "LAND1",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "TELF1",
+                          "val": "55-1103-3503"
+                        },
+                        {
+                          "key": "SPRAS",
+                          "val": "E"
+                        },
+                        {
+                          "key": "ORT02",
+                          "val": "CENTRO DE CIUDAD SANTA FE"
+                        },
+                        {
+                          "key": "HAUSN",
+                          "val": "000000"
+                        },
+                        {
+                          "key": "REGIO",
+                          "val": "CMX"
+                        },
+                        {
+                          "key": "SPRAS_ISO",
+                          "val": "EN"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDPA1003",
+                      "recno": 74,
+                      "level": 3,
+                      "qlkey": "PARVW",
+                      "qlval": "WE",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "PARVW",
+                          "val": "WE"
+                        },
+                        {
+                          "key": "PARTN",
+                          "val": "1000000985"
+                        },
+                        {
+                          "key": "NAME1",
+                          "val": "FORD MOTOR COMPANY MEXICO"
+                        },
+                        {
+                          "key": "NAME2",
+                          "val": "AP24A HERMOSILLO Plant"
+                        },
+                        {
+                          "key": "NAME3",
+                          "val": "PEEH  FMO 8304236C5"
+                        },
+                        {
+                          "key": "STRAS",
+                          "val": "KM 4.5 CARR. LA COLORADA"
+                        },
+                        {
+                          "key": "ORT01",
+                          "val": "HERMOSILLO"
+                        },
+                        {
+                          "key": "PSTLZ",
+                          "val": "83200"
+                        },
+                        {
+                          "key": "LAND1",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "SPRAS",
+                          "val": "E"
+                        },
+                        {
+                          "key": "ORT02",
+                          "val": "PARQUE INDUSTRIAL DYNATECH"
+                        },
+                        {
+                          "key": "HAUSN",
+                          "val": "000000"
+                        },
+                        {
+                          "key": "REGIO",
+                          "val": "SON"
+                        },
+                        {
+                          "key": "KNREF",
+                          "val": "AP24A"
+                        },
+                        {
+                          "key": "SPRAS_ISO",
+                          "val": "EN"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP05002",
+                      "recno": 75,
+                      "level": 3,
+                      "qlkey": "ALCKZ",
+                      "qlval": "+",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "ALCKZ",
+                          "val": "+"
+                        },
+                        {
+                          "key": "KSCHL",
+                          "val": "PDIF"
+                        },
+                        {
+                          "key": "KOTXT",
+                          "val": "Diff.value (own)"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "22.50"
+                        },
+                        {
+                          "key": "KRATE",
+                          "val": "0"
+                        },
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "KOEIN",
+                          "val": "USD"
+                        },
+                        {
+                          "key": "KOBAS",
+                          "val": "0"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP04001",
+                      "recno": 76,
+                      "level": 3,
+                      "qlkey": "MWSKZ",
+                      "qlval": "B2",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "MSATZ",
+                          "val": "16.000"
+                        },
+                        {
+                          "key": "MWSBT",
+                          "val": "3.60"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP28003",
+                      "recno": 77,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "EXNUM",
+                          "val": "0060745573"
+                        },
+                        {
+                          "key": "EXPOS",
+                          "val": "000001"
+                        },
+                        {
+                          "key": "STAWN",
+                          "val": "8512900799"
+                        },
+                        {
+                          "key": "HERKL",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "HERTA",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "HERTI",
+                          "val": "Mexico"
+                        },
+                        {
+                          "key": "STXT1",
+                          "val": "Other"
+                        },
+                        {
+                          "key": "BRULO",
+                          "val": "380.544"
+                        },
+                        {
+                          "key": "NETLO",
+                          "val": "380.544"
+                        },
+                        {
+                          "key": "VEMEH",
+                          "val": "KGM"
+                        },
+                        {
+                          "key": "VERLD",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "VERLD_TX",
+                          "val": "412 Mexico"
+                        },
+                        {
+                          "key": "WKREG",
+                          "val": "MEX"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDP01011",
+                  "recno": 78,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "POSEX",
+                      "val": "000002"
+                    },
+                    {
+                      "key": "MENGE",
+                      "val": "96.000"
+                    },
+                    {
+                      "key": "MENEE",
+                      "val": "PCE"
+                    },
+                    {
+                      "key": "NTGEW",
+                      "val": "45.907"
+                    },
+                    {
+                      "key": "GEWEI",
+                      "val": "KGM"
+                    },
+                    {
+                      "key": "BRGEW",
+                      "val": "45.907"
+                    },
+                    {
+                      "key": "PSTYV",
+                      "val": "YL2M"
+                    },
+                    {
+                      "key": "WERKS",
+                      "val": "E622"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDP01_XML001",
+                      "recno": 79,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "UNIT_PRICE",
+                          "val": "0.025521"
+                        },
+                        {
+                          "key": "AMOUNT",
+                          "val": "2.45"
+                        },
+                        {
+                          "key": "PROD_CODE",
+                          "val": "25172300"
+                        },
+                        {
+                          "key": "UOM_CODE",
+                          "val": "H87"
+                        },
+                        {
+                          "key": "ORI_ODN_NUMBER",
+                          "val": "0237175951"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 80,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "SF9KB4"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 81,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "0034786978"
+                        },
+                        {
+                          "key": "ZEILE",
+                          "val": "000012"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 82,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "016",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "016"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "0034786978"
+                        },
+                        {
+                          "key": "ZEILE",
+                          "val": "000012"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 83,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "029",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "029"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 84,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "011",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "011"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220421"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 85,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "025",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "025"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220421"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 86,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "027",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "027"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220214"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 87,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "023",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "023"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220214"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 88,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "010",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "010"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "AA90252981"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 89,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "M1PB 17B589 AA"
+                        },
+                        {
+                          "key": "IDTNR_EXTERNAL",
+                          "val": "M1PB 17B589 AA"
+                        },
+                        {
+                          "key": "IDTNR_GUID",
+                          "val": "00000000000000000000000000000000"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 90,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "33981571286DV"
+                        },
+                        {
+                          "key": "KTEXT",
+                          "val": "Wiper Arm-And-Blade Assy"
+                        },
+                        {
+                          "key": "IDTNR_EXTERNAL",
+                          "val": "33981571286DV"
+                        },
+                        {
+                          "key": "IDTNR_GUID",
+                          "val": "4A8FF1F7F7021EDA86EF4D586CA80A0F"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 91,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "007",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "007"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "8512900799"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 92,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "006",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "006"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "3398157128P"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 93,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "011",
+                      "instn": 6,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "011"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "MX"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 94,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "004",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "004"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "2.84"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 95,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "003",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "003"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "2.45"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 96,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "010",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "010"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "678.17"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 97,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "011",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "011"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "2.45"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 98,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "012",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "012"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "678.17"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 99,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "013",
+                      "instn": 6,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "013"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "678.17"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 100,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "014",
+                      "instn": 7,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "014"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "2.45"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 101,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "015",
+                      "instn": 8,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "015"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "678.17"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 102,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 9,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "0"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 103,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 10,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "2.45"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDPA1003",
+                      "recno": 104,
+                      "level": 3,
+                      "qlkey": "PARVW",
+                      "qlval": "RG",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "PARVW",
+                          "val": "RG"
+                        },
+                        {
+                          "key": "PARTN",
+                          "val": "1000001805"
+                        },
+                        {
+                          "key": "NAME1",
+                          "val": "FORD MOTOR CO SA DE CV"
+                        },
+                        {
+                          "key": "STRAS",
+                          "val": "GUILLERMO GLEZ. CAMARENA 1500"
+                        },
+                        {
+                          "key": "ORT01",
+                          "val": "ALVARO OBREGON"
+                        },
+                        {
+                          "key": "PSTLZ",
+                          "val": "01210"
+                        },
+                        {
+                          "key": "LAND1",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "TELF1",
+                          "val": "55-1103-3503"
+                        },
+                        {
+                          "key": "SPRAS",
+                          "val": "E"
+                        },
+                        {
+                          "key": "ORT02",
+                          "val": "CENTRO DE CIUDAD SANTA FE"
+                        },
+                        {
+                          "key": "HAUSN",
+                          "val": "000000"
+                        },
+                        {
+                          "key": "REGIO",
+                          "val": "CMX"
+                        },
+                        {
+                          "key": "SPRAS_ISO",
+                          "val": "EN"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDPA1003",
+                      "recno": 105,
+                      "level": 3,
+                      "qlkey": "PARVW",
+                      "qlval": "WE",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "PARVW",
+                          "val": "WE"
+                        },
+                        {
+                          "key": "PARTN",
+                          "val": "1000000985"
+                        },
+                        {
+                          "key": "NAME1",
+                          "val": "FORD MOTOR COMPANY MEXICO"
+                        },
+                        {
+                          "key": "NAME2",
+                          "val": "AP24A HERMOSILLO Plant"
+                        },
+                        {
+                          "key": "NAME3",
+                          "val": "PEEH  FMO 8304236C5"
+                        },
+                        {
+                          "key": "STRAS",
+                          "val": "KM 4.5 CARR. LA COLORADA"
+                        },
+                        {
+                          "key": "ORT01",
+                          "val": "HERMOSILLO"
+                        },
+                        {
+                          "key": "PSTLZ",
+                          "val": "83200"
+                        },
+                        {
+                          "key": "LAND1",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "SPRAS",
+                          "val": "E"
+                        },
+                        {
+                          "key": "ORT02",
+                          "val": "PARQUE INDUSTRIAL DYNATECH"
+                        },
+                        {
+                          "key": "HAUSN",
+                          "val": "000000"
+                        },
+                        {
+                          "key": "REGIO",
+                          "val": "SON"
+                        },
+                        {
+                          "key": "KNREF",
+                          "val": "AP24A"
+                        },
+                        {
+                          "key": "SPRAS_ISO",
+                          "val": "EN"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP05002",
+                      "recno": 106,
+                      "level": 3,
+                      "qlkey": "ALCKZ",
+                      "qlval": "+",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "ALCKZ",
+                          "val": "+"
+                        },
+                        {
+                          "key": "KSCHL",
+                          "val": "PDIF"
+                        },
+                        {
+                          "key": "KOTXT",
+                          "val": "Diff.value (own)"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "2.45"
+                        },
+                        {
+                          "key": "KRATE",
+                          "val": "0"
+                        },
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "KOEIN",
+                          "val": "USD"
+                        },
+                        {
+                          "key": "KOBAS",
+                          "val": "0"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP04001",
+                      "recno": 107,
+                      "level": 3,
+                      "qlkey": "MWSKZ",
+                      "qlval": "B2",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "MSATZ",
+                          "val": "16.000"
+                        },
+                        {
+                          "key": "MWSBT",
+                          "val": "0.39"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP28003",
+                      "recno": 108,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "EXNUM",
+                          "val": "0060745573"
+                        },
+                        {
+                          "key": "EXPOS",
+                          "val": "000002"
+                        },
+                        {
+                          "key": "STAWN",
+                          "val": "8512900799"
+                        },
+                        {
+                          "key": "HERKL",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "HERTA",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "HERTI",
+                          "val": "Mexico"
+                        },
+                        {
+                          "key": "STXT1",
+                          "val": "Other"
+                        },
+                        {
+                          "key": "BRULO",
+                          "val": "45.907"
+                        },
+                        {
+                          "key": "NETLO",
+                          "val": "45.907"
+                        },
+                        {
+                          "key": "VEMEH",
+                          "val": "KGM"
+                        },
+                        {
+                          "key": "VERLD",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "VERLD_TX",
+                          "val": "412 Mexico"
+                        },
+                        {
+                          "key": "WKREG",
+                          "val": "MEX"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDP01011",
+                  "recno": 109,
+                  "level": 2,
+                  "qlkey": "",
+                  "qlval": "",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "POSEX",
+                      "val": "000003"
+                    },
+                    {
+                      "key": "MENGE",
+                      "val": "960.000"
+                    },
+                    {
+                      "key": "MENEE",
+                      "val": "PCE"
+                    },
+                    {
+                      "key": "NTGEW",
+                      "val": "429.120"
+                    },
+                    {
+                      "key": "GEWEI",
+                      "val": "KGM"
+                    },
+                    {
+                      "key": "BRGEW",
+                      "val": "429.120"
+                    },
+                    {
+                      "key": "PSTYV",
+                      "val": "YL2M"
+                    },
+                    {
+                      "key": "WERKS",
+                      "val": "E622"
+                    }
+                  ],
+                  "child": [
+                    {
+                      "segmn": "/RB04/YP3_E1EDP01_XML001",
+                      "recno": 110,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "UNIT_PRICE",
+                          "val": "0.026604"
+                        },
+                        {
+                          "key": "AMOUNT",
+                          "val": "25.54"
+                        },
+                        {
+                          "key": "PROD_CODE",
+                          "val": "25172300"
+                        },
+                        {
+                          "key": "UOM_CODE",
+                          "val": "H87"
+                        },
+                        {
+                          "key": "ORI_ODN_NUMBER",
+                          "val": "0237175960"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 111,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "SF9KB4"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 112,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "0034786978"
+                        },
+                        {
+                          "key": "ZEILE",
+                          "val": "000013"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP02002",
+                      "recno": 113,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "016",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "016"
+                        },
+                        {
+                          "key": "BELNR",
+                          "val": "0034786978"
+                        },
+                        {
+                          "key": "ZEILE",
+                          "val": "000013"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 114,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "029",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "029"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220420"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 115,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "011",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "011"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220421"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 116,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "025",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "025"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220421"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 117,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "027",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "027"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220214"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP03",
+                      "recno": 118,
+                      "level": 3,
+                      "qlkey": "IDDAT",
+                      "qlval": "023",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "IDDAT",
+                          "val": "023"
+                        },
+                        {
+                          "key": "DATUM",
+                          "val": "20220214"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 119,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "NZ6B 17B589 AA"
+                        },
+                        {
+                          "key": "IDTNR_EXTERNAL",
+                          "val": "NZ6B 17B589 AA"
+                        },
+                        {
+                          "key": "IDTNR_GUID",
+                          "val": "00000000000000000000000000000000"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 120,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "33981574116DV"
+                        },
+                        {
+                          "key": "KTEXT",
+                          "val": "Wiper Arm-And-Blade Assy"
+                        },
+                        {
+                          "key": "IDTNR_EXTERNAL",
+                          "val": "33981574116DV"
+                        },
+                        {
+                          "key": "IDTNR_GUID",
+                          "val": "EEDBC3983A021EEB9884EB77EB74C622"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 121,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "007",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "007"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "8512900799"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 122,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "006",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "006"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "3398157411P"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP19003",
+                      "recno": 123,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "011",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "011"
+                        },
+                        {
+                          "key": "IDTNR",
+                          "val": "MX"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 124,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "004",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "004"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "29.63"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 125,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "003",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "003"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "25.54"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 126,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "010",
+                      "instn": 3,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "010"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "7101.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 127,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "011",
+                      "instn": 4,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "011"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "25.54"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 128,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "012",
+                      "instn": 5,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "012"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "7101.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 129,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "013",
+                      "instn": 6,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "013"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "7101.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 130,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "014",
+                      "instn": 7,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "014"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "25.54"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 131,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "015",
+                      "instn": 8,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "015"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "7101.50"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 132,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "001",
+                      "instn": 9,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "001"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "0"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP26",
+                      "recno": 133,
+                      "level": 3,
+                      "qlkey": "QUALF",
+                      "qlval": "002",
+                      "instn": 10,
+                      "field": [
+                        {
+                          "key": "QUALF",
+                          "val": "002"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "25.54"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDPA1003",
+                      "recno": 134,
+                      "level": 3,
+                      "qlkey": "PARVW",
+                      "qlval": "RG",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "PARVW",
+                          "val": "RG"
+                        },
+                        {
+                          "key": "PARTN",
+                          "val": "1000001805"
+                        },
+                        {
+                          "key": "NAME1",
+                          "val": "FORD MOTOR CO SA DE CV"
+                        },
+                        {
+                          "key": "STRAS",
+                          "val": "GUILLERMO GLEZ. CAMARENA 1500"
+                        },
+                        {
+                          "key": "ORT01",
+                          "val": "ALVARO OBREGON"
+                        },
+                        {
+                          "key": "PSTLZ",
+                          "val": "01210"
+                        },
+                        {
+                          "key": "LAND1",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "TELF1",
+                          "val": "55-1103-3503"
+                        },
+                        {
+                          "key": "SPRAS",
+                          "val": "E"
+                        },
+                        {
+                          "key": "ORT02",
+                          "val": "CENTRO DE CIUDAD SANTA FE"
+                        },
+                        {
+                          "key": "HAUSN",
+                          "val": "000000"
+                        },
+                        {
+                          "key": "REGIO",
+                          "val": "CMX"
+                        },
+                        {
+                          "key": "SPRAS_ISO",
+                          "val": "EN"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDPA1003",
+                      "recno": 135,
+                      "level": 3,
+                      "qlkey": "PARVW",
+                      "qlval": "WE",
+                      "instn": 2,
+                      "field": [
+                        {
+                          "key": "PARVW",
+                          "val": "WE"
+                        },
+                        {
+                          "key": "PARTN",
+                          "val": "1000000985"
+                        },
+                        {
+                          "key": "NAME1",
+                          "val": "FORD MOTOR COMPANY MEXICO"
+                        },
+                        {
+                          "key": "NAME2",
+                          "val": "AP24A HERMOSILLO Plant"
+                        },
+                        {
+                          "key": "NAME3",
+                          "val": "PEEH  FMO 8304236C5"
+                        },
+                        {
+                          "key": "STRAS",
+                          "val": "KM 4.5 CARR. LA COLORADA"
+                        },
+                        {
+                          "key": "ORT01",
+                          "val": "HERMOSILLO"
+                        },
+                        {
+                          "key": "PSTLZ",
+                          "val": "83200"
+                        },
+                        {
+                          "key": "LAND1",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "SPRAS",
+                          "val": "E"
+                        },
+                        {
+                          "key": "ORT02",
+                          "val": "PARQUE INDUSTRIAL DYNATECH"
+                        },
+                        {
+                          "key": "HAUSN",
+                          "val": "000000"
+                        },
+                        {
+                          "key": "REGIO",
+                          "val": "SON"
+                        },
+                        {
+                          "key": "KNREF",
+                          "val": "AP24A"
+                        },
+                        {
+                          "key": "SPRAS_ISO",
+                          "val": "EN"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP05002",
+                      "recno": 136,
+                      "level": 3,
+                      "qlkey": "ALCKZ",
+                      "qlval": "+",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "ALCKZ",
+                          "val": "+"
+                        },
+                        {
+                          "key": "KSCHL",
+                          "val": "PDIF"
+                        },
+                        {
+                          "key": "KOTXT",
+                          "val": "Diff.value (own)"
+                        },
+                        {
+                          "key": "BETRG",
+                          "val": "25.54"
+                        },
+                        {
+                          "key": "KRATE",
+                          "val": "0"
+                        },
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "KOEIN",
+                          "val": "USD"
+                        },
+                        {
+                          "key": "KOBAS",
+                          "val": "0"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP04001",
+                      "recno": 137,
+                      "level": 3,
+                      "qlkey": "MWSKZ",
+                      "qlval": "B2",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "MWSKZ",
+                          "val": "B2"
+                        },
+                        {
+                          "key": "MSATZ",
+                          "val": "16.000"
+                        },
+                        {
+                          "key": "MWSBT",
+                          "val": "4.09"
+                        }
+                      ],
+                      "child": []
+                    },
+                    {
+                      "segmn": "E2EDP28003",
+                      "recno": 138,
+                      "level": 3,
+                      "qlkey": "",
+                      "qlval": "",
+                      "instn": 1,
+                      "field": [
+                        {
+                          "key": "EXNUM",
+                          "val": "0060745573"
+                        },
+                        {
+                          "key": "EXPOS",
+                          "val": "000003"
+                        },
+                        {
+                          "key": "STAWN",
+                          "val": "8512900799"
+                        },
+                        {
+                          "key": "HERKL",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "HERTA",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "HERTI",
+                          "val": "Mexico"
+                        },
+                        {
+                          "key": "STXT1",
+                          "val": "Other"
+                        },
+                        {
+                          "key": "BRULO",
+                          "val": "429.120"
+                        },
+                        {
+                          "key": "NETLO",
+                          "val": "429.120"
+                        },
+                        {
+                          "key": "VEMEH",
+                          "val": "KGM"
+                        },
+                        {
+                          "key": "VERLD",
+                          "val": "MX"
+                        },
+                        {
+                          "key": "VERLD_TX",
+                          "val": "412 Mexico"
+                        },
+                        {
+                          "key": "WKREG",
+                          "val": "MEX"
+                        }
+                      ],
+                      "child": []
+                    }
+                  ]
+                },
+                {
+                  "segmn": "E2EDS01",
+                  "recno": 139,
+                  "level": 2,
+                  "qlkey": "SUMID",
+                  "qlval": "001",
+                  "instn": 1,
+                  "field": [
+                    {
+                      "key": "SUMID",
+                      "val": "001"
+                    },
+                    {
+                      "key": "SUMME",
+                      "val": "3"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDS01",
+                  "recno": 140,
+                  "level": 2,
+                  "qlkey": "SUMID",
+                  "qlval": "012",
+                  "instn": 2,
+                  "field": [
+                    {
+                      "key": "SUMID",
+                      "val": "012"
+                    },
+                    {
+                      "key": "SUMME",
+                      "val": "58.57"
+                    },
+                    {
+                      "key": "WAERQ",
+                      "val": "USD"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDS01",
+                  "recno": 141,
+                  "level": 2,
+                  "qlkey": "SUMID",
+                  "qlval": "005",
+                  "instn": 3,
+                  "field": [
+                    {
+                      "key": "SUMID",
+                      "val": "005"
+                    },
+                    {
+                      "key": "SUMME",
+                      "val": "8.08"
+                    },
+                    {
+                      "key": "WAERQ",
+                      "val": "USD"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDS01",
+                  "recno": 142,
+                  "level": 2,
+                  "qlkey": "SUMID",
+                  "qlval": "011",
+                  "instn": 4,
+                  "field": [
+                    {
+                      "key": "SUMID",
+                      "val": "011"
+                    },
+                    {
+                      "key": "SUMME",
+                      "val": "58.57"
+                    },
+                    {
+                      "key": "WAERQ",
+                      "val": "USD"
+                    }
+                  ],
+                  "child": []
+                },
+                {
+                  "segmn": "E2EDS01",
+                  "recno": 143,
+                  "level": 2,
+                  "qlkey": "SUMID",
+                  "qlval": "010",
+                  "instn": 5,
+                  "field": [
+                    {
+                      "key": "SUMID",
+                      "val": "010"
+                    },
+                    {
+                      "key": "SUMME",
+                      "val": "50.49"
+                    },
+                    {
+                      "key": "WAERQ",
+                      "val": "USD"
+                    }
+                  ],
+                  "child": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

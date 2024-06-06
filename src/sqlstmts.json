@@ -1,0 +1,32 @@
+r#"
+{
+  "sqlst": [
+    {"activ": "yes", "table": "items",
+     "sqlst": "CREATE TABLE IF NOT EXISTS items   (idocn TEXT, rname TEXT, dname TEXT, rclas TEXT, rtype TEXT, dtype TEXT, dtext TEXT, level INTEGER, stats TEXT, minlp INTEGER, maxlp INTEGER, lngth INTEGER, seqno INTEGER, strps INTEGER, endps INTEGER, PRIMARY KEY (idocn, rname, dname));"},
+    {"activ": "yes", "table": "struc",
+     "sqlst": "CREATE TABLE IF NOT EXISTS struc   (idocn TEXT, strtp TEXT, level INTEGER, prnam TEXT, pseqn INTEGER, pdnam TEXT, pdtyp TEXT, pdqlf TEXT, crnam TEXT, cseqn INTEGER, cdnam TEXT, cdtyp TEXT, cdqlf TEXT, PRIMARY KEY (idocn, strtp, prnam, pseqn, pdtyp, crnam, cseqn, cdtyp));"},
+    {"activ": "yes", "table": "cdindex",
+     "sqlst": "CREATE TABLE IF NOT EXISTS cdindex (tabid TEXT, tabus TEXT, PRIMARY KEY (tabid));"},
+    {"activ": "yes", "table": "cdcodes",
+     "sqlst": "CREATE TABLE IF NOT EXISTS cdcodes (tabid TEXT, cdkey TEXT, cdtext TEXT, PRIMARY KEY (tabid, cdkey));"},
+    {"activ": "yes", "table": "cddata",
+     "sqlst": "CREATE TABLE IF NOT EXISTS cddata  (tabid TEXT, cdkey TEXT, relshp1 TEXT, relshp2 TEXT, PRIMARY KEY (tabid, cdkey));"},
+    {"activ": "yes", "table": "idoctp",
+     "sqlst": "CREATE TABLE IF NOT EXISTS idoctp  (itype TEXT, idefn TEXT, short TEXT, cntrl TEXT, clien TEXT, rcvpf TEXT, PRIMARY KEY (itype));"},
+    {"activ": "yes", "table": "indix",
+     "sqlst": "CREATE TABLE IF NOT EXISTS indix   (mapid TEXT, ctmrs TEXT, ctmrl TEXT, messg TEXT, mvers TEXT, idocm TEXT, idoct TEXT, mstat TEXT, fname TEXT, relsd TEXT, chgnr TEXT, suprt TEXT, asgnd TEXT, dstat TEXT, templ TEXT, msgtp TEXT, PRIMARY KEY (mapid, chgnr));"},
+    {"activ": "yes", "table": "wkflow",
+     "sqlst": "CREATE TABLE IF NOT EXISTS wkflow  (step  TEXT, inpdr TEXT, inptp TEXT, outdr TEXT, outtp TEXT, refdr TEXT, reftp TEXT, wkflw TEXT, pcddr TEXT, ifilt TEXT, PRIMARY KEY (step));"},
+    {"activ": "yes", "table": "mapspecs",
+     "sqlst": "CREATE TABLE IF NOT EXISTS mapspecs(mapid TEXT, chgnr TEXT, grpid TEXT, sgmid TEXT, targt TEXT, rowno TEXT, seqno TEXT);"},
+    {"activ": "yes", "table": "headers",
+     "sqlst": "CREATE TABLE IF NOT EXISTS headers (mapid TEXT, chgnr TEXT, mptit TEXT, lupdt TEXT, authr TEXT, bvers TEXT, cstmr TEXT, tgtfm TEXT, srcfm TEXT, rowno TEXT, seqno TEXT, PRIMARY KEY (mapid, chgnr));"},
+    {"activ": "yes", "table": "groups",
+     "sqlst": "CREATE TABLE IF NOT EXISTS groups  (mapid TEXT, chgnr TEXT, grpid TEXT, gtext TEXT, lpmax TEXT, stats TEXT, dtext TEXT, chang TEXT, rowno TEXT, seqno TEXT);"},
+    {"activ": "yes", "table": "segments",
+     "sqlst": "CREATE TABLE IF NOT EXISTS segments(mapid TEXT, chgnr TEXT, grpid TEXT, sgmid TExT, sgmtp TEXT, lpmax TEXT, stats TEXT, dtext TEXT, chang TEXT, rowno TEXT, seqno TEXT);"},
+    {"activ": "yes", "table": "fields",
+     "sqlst": "CREATE TABLE IF NOT EXISTS fields  (mapid TEXT, chgnr TEXT, grpid TEXT, sgmid TEXT, targt TEXT, sourc TEXT, rcond TEXT, commt TEXT, dtext TEXT, chang TEXT, rowno TEXT, seqno TEXT, sampl TEXT);"}
+  ]
+}
+"#

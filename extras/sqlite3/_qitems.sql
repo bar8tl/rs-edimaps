@@ -1,0 +1,2 @@
+select * from items;
+.exit

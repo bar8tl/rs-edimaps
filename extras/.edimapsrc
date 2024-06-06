@@ -1,0 +1,15 @@
+[general]
+home  = "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\"
+dbopt = ".\\edimaps.db"
+
+[refers]
+refdr = "~\\_edibb~1\\_assets\\sapcodes\\"
+idxpt = "~\\_index\\_edirbna_mapping-index.xlsx"
+tabid = "idx"
+defdr = "~\\_edibb~1\\_assets\\idoctypes\\"
+
+[maps]
+mapdr = "~\\"
+bkpdr = "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\"
+
+[wkflow]

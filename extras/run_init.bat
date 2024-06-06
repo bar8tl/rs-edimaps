@@ -1,0 +1,2 @@
+..\bin\edimaps init .
+pause

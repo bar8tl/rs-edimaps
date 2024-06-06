@@ -1,0 +1,235 @@
+07.11.2023               Dynamic List Display                                                                        1
+
+IDoc Number : 0000003073899750
+
+	Technical Name	Description	Value
+
+	EDIDC	Control Record
+	DIRECT	Direction	2  : Inbound
+	DOCREL	Release	750
+	STATUS	Status	53 :Application document posted
+	IDOCTYP	Basic Type	53 :Delivery Schedule/JIT Schedule
+	CIMTYP	Enhancement	53 :
+	MESTYP	Message Type	DELINS
+	MESCOD	Message Variant
+	MESFCT	Message Function
+	CREDAT	Created On	20231106
+	CRETIM	Created At	002810
+	SNDPOR	Sender Port	EDIMANVTB
+	SNDPRT	Sender Partn. Type	KU
+	SNDPRN	Sender Partner Number	1000919476
+	RCVPOR	Receiver Port	SAPPOE
+	RCVPRT	Receiver Partner Type	LS
+	RVCPRN	Receiver Partner Number	SAPPOE011
+	STD	EDI Standard
+	STDVRS	EDI Version
+	STDMES	EDI Message Type	CSVUPL
+	EDIDD	Data Records
+	SEGNUM	Segment Number	000001
+	SEGNAM	Segment Name	E1EDK09
+	VTRNR	Contract number	PO
+	BSTDK	Customer Purchase Order Date	20231106
+	LABNK	Customer number for forecast /	D220231106HV12
+	ABRVW	Usage Indicator	S
+	KTEXT_V	Search term for product propos	R780
+	SEGNUM	Segment Number	000002
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	AG   : Sold-to party
+	PARTN	Partner number	R780
+	LIFNR	Vendor number at customer loca	R780
+	SEGNUM	Segment Number	000003
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	AB
+	SEGNUM	Segment Number	000004
+	SEGNAM	Segment Name	E1EDP10
+	IDNKD	Material number of customer	391003N270
+	KWERK	Customer plant	HV12
+	LABKY	Delivery schedule key	2
+	SCREL	Release schedule	02
+	SEGNUM	Segment Number	000005
+	SEGNAM	Segment Name	E1EDP15
+	TDNAME	EDI text function	YAQU
+	SPRAS	Language Key	EN
+	TXT01	Text continued	CUST
+	SEGNUM	Segment Number	000006
+	SEGNAM	Segment Name	E1EDP15
+	TDNAME	EDI text function	YADT
+	SPRAS	Language Key	EN
+	TXT01	Text continued	1300
+	TXT02	Text continued	PCE
+	SEGNUM	Segment Number	000007
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231106
+	EDATUB	Schedule line date until	20231106
+	WMENG	Released quantity	2
+	SEGNUM	Segment Number	000008
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231107
+	EDATUB	Schedule line date until	20231107
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000009
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231108
+	EDATUB	Schedule line date until	20231108
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000010
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231109
+	EDATUB	Schedule line date until	20231109
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000011
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231110
+	EDATUB	Schedule line date until	20231110
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000012
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231111
+	EDATUB	Schedule line date until	20231111
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000013
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231112
+	EDATUB	Schedule line date until	20231112
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000014
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231113
+	EDATUB	Schedule line date until	20231113
+	WMENG	Released quantity	0
+	SEGNUM	Segment Number	000015
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231114
+	EDATUB	Schedule line date until	20231114
+	WMENG	Released quantity	10
+	SEGNUM	Segment Number	000016
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231115
+	EDATUB	Schedule line date until	20231115
+	WMENG	Released quantity	10
+	SEGNUM	Segment Number	000017
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231116
+	EDATUB	Schedule line date until	20231116
+	WMENG	Released quantity	10
+	SEGNUM	Segment Number	000018
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231117
+	EDATUB	Schedule line date until	20231117
+	WMENG	Released quantity	10
+	SEGNUM	Segment Number	000019
+	SEGNAM	Segment Name	E1EDP16
+	ETTYP	Schedule line type EDI	1
+	PRGRS	Date type	D  : Day
+	EDATUV	Schedule line date from	20231118
+	EDATUB	Schedule line date until	20231118
+	WMENG	Released quantity	10
+	EDIDS	Status Records
+	EDIDS	Status Record Number	  1
+	STATUS	Status Value	50 : IDoc added
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002810
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002810
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  2
+	STATUS	Status Value	52 : Application document not fully posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4030
+	STATXT	Message	Scheduling agreement &1 for IDoc &2 has been processed
+	STAPA1	Parameter1	0025674667
+	STAPA2	Parameter2	(als Originalabruf)
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002915
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002915
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  3
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAP/SAPAPO/CMDS_EDI_APO010
+	STATXT	Message	Delivery schedule for scheduling agreement &1 has been processed
+	STAPA1	Parameter1	0025674667
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002915
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002915
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program	/SAPAPO/SAPLCMDS_EDI_INBOUND
+	ROUTID	Status set by program	FUB: /SAPAPO/CMDS_IDOC_INPUT_D
+	EDIDS	Status Record Number	  4
+	STATUS	Status Value	53 : Application document posted
+	STAMQU/STAMID/STAMNO	Status Code	SAPV4321
+	STATXT	Message	Scheduling agreement &1 was processed in system &2
+	STAPA1	Parameter1	0025674667
+	STAPA2	Parameter2	SAPPA5011
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002915
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002915
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program	SAPLVED4
+	ROUTID	Status set by program	IDOC_INPUT_DELINS
+	EDIDS	Status Record Number	  5
+	STATUS	Status Value	62 : IDoc passed to application
+	STAMQU/STAMID/STAMNO	Status Code	SAPB1042
+	STATXT	Message	Direct call started
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002910
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002915
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program	SAPLBD20
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  6
+	STATUS	Status Value	62 : IDoc passed to application
+	STAMQU/STAMID/STAMNO	Status Code	SAP/SAPAPO/CMDS_EDI_APO051
+	STATXT	Message	Sold-to party &1 has no special rule
+	STAPA1	Parameter1	1000014670
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002915
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002915
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program	/SAPAPO/SAPLCMDS_EDI_INBOUND
+	ROUTID	Status set by program	READ_SPECIAL_HANDLING
+	EDIDS	Status Record Number	  7
+	STATUS	Status Value	64 : IDoc ready to be passed to application
+	STAMQU/STAMID/STAMNO	Status Code	SAPB1005
+	STATXT	Message	& &, &, &.
+	STAPA2	Parameter2	No filters
+	STAPA3	Parameter3	No conversion
+	STAPA4	Parameter4	No version change
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	002810
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	002810
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program	SAPLEDIR
+	ROUTID	Status set by program	IDOC_STATUS_64OR65_SET

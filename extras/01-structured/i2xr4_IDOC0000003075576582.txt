@@ -1,0 +1,611 @@
+07.11.2023                                                                    Dynamic List Display                                                                                                                              1
+
+IDoc Number : 0000003075576582
+
+	Technical Name	Description	Value
+
+	EDIDC	Control Record
+	DIRECT	Direction	1  : Outbound
+	DOCREL	Release	750
+	OUTMOD	Output Mode	2
+	STATUS	Status	14 :Interchange acknowledgment positive
+	IDOCTYP	Basic Type	14 :Invoice/Billing document
+	CIMTYP	Enhancement	14 :SDI: Idoc extension for XML base invoices
+	MESTYP	Message Type	INVOIC
+	MESCOD	Message Variant
+	MESFCT	Message Function
+	CREDAT	Created On	20231106
+	CRETIM	Created At	234024
+	SNDPOR	Sender Port	SAPPOE
+	SNDPRT	Sender Partn. Type	LS
+	SNDPRN	Sender Partner Number	SAPPOE011
+	RCVPOR	Receiver Port	EDIMANVTB
+	RCVPRT	Receiver Partner Type	KU
+	RVCPRN	Receiver Partner Number	RBRBME
+	STD	EDI Standard
+	STDVRS	EDI Version
+	STDMES	EDI Message Type
+	EDIDD	Data Records
+	SEGNUM	Segment Number	000001
+	SEGNAM	Segment Name	E1EDK01
+	CURCY	Currency	USD
+	HWAER	EDI local currency	MXN
+	WKURS	Exchange rate	17.93050
+	ZTERM	Terms of payment key	D125
+	BSART	Document Type	INVO
+	BELNR	IDOC document number	0237216214
+	NTGEW	Net weight	124.800
+	BRGEW	Net weight	124.800
+	GEWEI	Weight unit	KGM
+	FKART_RL	Invoice list type	LR
+	RECIPNT_NO	Number of recipient (for contr	1000030919
+	FKTYP	Billing category	L  : Delivery-related billing document
+	SEGNUM	Segment Number	000002
+	SEGNAM	Segment Name	/RB04/YP3_E1EDK01_XML
+	DATE_TIME	Char 20	2023-11-06T23:36:56
+	DOC_SUB_TOTAL	Field length 18	17102.40
+	DOC_TOTAL	Field length 18	19838.7800
+	EXCHANGE_RATE	(1.p) Exchange Rate for Docume	17.93050
+	CURRENCY	(1.q) Document Currency	USD
+	DOC_TOTAL_IN_WDS	Amount in words	DIECINUEVE MIL OCHOCIENTOS TREINTA Y OCHO Y 78/100 USD
+	ISSUING_PLACE	(1.n) Location/Place Where the	Toluca México
+	ACCOUNT_NUMBER	(1.o) Account Number	0223
+	PAY_TERM	SAT Terms of Payment	PPD  : Installment or Deferred Payment
+	PAY_METHOD	SAT Payment Method Code	99                                                                                                                                                              : To define
+	USOCFDI	3-Byte field	G01
+	SEGNUM	Segment Number	000003
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	RS   : Invoicing party
+	LIFNR	Vendor number at customer loca	1000030919
+	NAME1	Name 1	Robert Bosch S.de R.L.de C.V.
+	STRAS	Street and house number 1	Robert Bosch 405
+	ORT01	City	Toluca
+	PSTLZ	Postal code	50071
+	LAND1	Country Key	MX
+	TELF1	1st telephone number of contac	722-279-2300
+	SPRAS	Language key	E
+	ORT02	District	Zona Industrial
+	REGIO	Region	MEX
+	BNAME	IDoc user name	UC4CPIC
+	PAORG	IDOC organization code	904W
+	SEGNUM	Segment Number	000004
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	AG   : Sold-to party
+	PARTN	Partner number	1000030919
+	LIFNR	Vendor number at customer loca	900072
+	NAME1	Name 1	MERCEDES-BENZ MEXICO INTERNATIONAL
+	STRAS	Street and house number 1	SANTA FE 428-T3,P3
+	ORT01	City	CUAJIMALPA DE MORELOS
+	PSTLZ	Postal code	05348
+	LAND1	Country Key	MX
+	SPRAS	Language key	E
+	ORT02	District	SANTA FE CUAJIMALPA
+	REGIO	Region	CMX
+	SPRAS_ISO	2-Character SAP Language Code	EN
+	SEGNUM	Segment Number	000005
+	SEGNAM	Segment Name	/RB04/YP3_E1EDKA1_XML
+	REG_TAX_NUMBER	Comment	DCM150604MG0
+	FISCAL_REGIME	R/2 table	601
+	SEGNUM	Segment Number	000006
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	RE   : Bill-to party
+	PARTN	Partner number	1000030919
+	NAME1	Name 1	MERCEDES-BENZ MEXICO INTERNATIONAL
+	STRAS	Street and house number 1	SANTA FE 428-T3,P3
+	ORT01	City	CUAJIMALPA DE MORELOS
+	PSTLZ	Postal code	05348
+	LAND1	Country Key	MX
+	SPRAS	Language key	E
+	ORT02	District	SANTA FE CUAJIMALPA
+	REGIO	Region	CMX
+	SPRAS_ISO	2-Character SAP Language Code	EN
+	SEGNUM	Segment Number	000007
+	SEGNAM	Segment Name	/RB04/YP3_E1EDKA1_XML
+	REG_TAX_NUMBER	Comment	DCM150604MG0
+	SEGNUM	Segment Number	000008
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	RG   : Payer
+	PARTN	Partner number	1000030919
+	NAME1	Name 1	MERCEDES-BENZ MEXICO INTERNATIONAL
+	STRAS	Street and house number 1	SANTA FE 428-T3,P3
+	ORT01	City	CUAJIMALPA DE MORELOS
+	PSTLZ	Postal code	05348
+	LAND1	Country Key	MX
+	SPRAS	Language key	E
+	ORT02	District	SANTA FE CUAJIMALPA
+	REGIO	Region	CMX
+	SPRAS_ISO	2-Character SAP Language Code	EN
+	SEGNUM	Segment Number	000009
+	SEGNAM	Segment Name	/RB04/YP3_E1EDKA1_XML
+	REG_TAX_NUMBER	Comment	DCM150604MG0
+	SEGNUM	Segment Number	000010
+	SEGNAM	Segment Name	E1EDKA1
+	PARVW	Partner function (e.g. sold-to	BK   : Company code address
+	LIFNR	Vendor number at customer loca	904W
+	NAME1	Name 1	ROBERT BOSCH
+	STRAS	Street and house number 1	Robert Bosch No.405 Zona Industrial
+	ORT01	City	Toluca
+	COUNC	County code	MEX
+	PSTLZ	Postal code	50071
+	LAND1	Country Key	MX
+	TELF1	1st telephone number of contac	52 722 279 2300
+	REGIO	Region	MEX
+	SEGNUM	Segment Number	000011
+	SEGNAM	Segment Name	/RB04/YP3_E1EDKA1_XML
+	REG_TAX_NUMBER	Comment	RBO910102QJ9
+	SEGNUM	Segment Number	000012
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	009  : Invoice Number
+	BELNR	IDOC document number	0237216214
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000013
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	001  : Customer Purchase Order
+	BELNR	IDOC document number	2200680105
+	SEGNUM	Segment Number	000014
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	002  : Vendor Order
+	BELNR	IDOC document number	0025653021
+	DATUM	IDOC: Date	20230801
+	SEGNUM	Segment Number	000015
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	012  : Delivery Note Number
+	BELNR	IDOC document number	1234371149
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000016
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	017  : Assignment Number
+	BELNR	IDOC document number	0237216214
+	SEGNUM	Segment Number	000017
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	064  : Goods Receipt/Issue Slip Number
+	BELNR	IDOC document number	0019859010
+	DATUM	IDOC: Date	20231101
+	SEGNUM	Segment Number	000018
+	SEGNAM	Segment Name	E1EDK02
+	QUALF	IDOC qualifier reference docum	087  : Reference Document Number Billing Doc.
+	BELNR	IDOC document number	0237216214
+	SEGNUM	Segment Number	000019
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	026  : Billing date for billing index and printout
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000020
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	001  : Delivery date (supplier)
+	DATUM	IDOC: Date	20231107
+	SEGNUM	Segment Number	000021
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	012  : Document date
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000022
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	011  : Date IDOC created
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000023
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	024  : Fixed value date
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000024
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	028  : Due date
+	DATUM	IDOC: Date	20231221
+	SEGNUM	Segment Number	000025
+	SEGNAM	Segment Name	E1EDK03
+	IDDAT	Qualifier for IDOC date segmen	048  : Exchange Rate
+	DATUM	IDOC: Date	20231106
+	SEGNUM	Segment Number	000026
+	SEGNAM	Segment Name	E1EDK04
+	MWSKZ	VAT indicator	B2
+	MSATZ	VAT rate	16.000
+	MWSBT	Value added tax amount	2736.38
+	SEGNUM	Segment Number	000027
+	SEGNAM	Segment Name	/RB04/YP3_E1EDK04_XML
+	MWSKZ	VAT indicator	B2
+	TEXT	Character field of length 40	IVA
+	RATE	Character field 13 digits	16.00
+	TAX_AMOUNT	Field of length 16	2736.38
+	TOTAL_TAX_AMOUNT	Field of length 16	2736.38
+	SEGNUM	Segment Number	000028
+	SEGNAM	Segment Name	E1EDK17
+	QUALF	IDOC qualifier: Terms of deliv	001  : INCOTERMS part 1
+	LKOND	IDOC delivery condition code	FCA
+	LKTEXT	IDOC delivery condition text	Free Carrier
+	SEGNUM	Segment Number	000029
+	SEGNAM	Segment Name	E1EDK17
+	QUALF	IDOC qualifier: Terms of deliv	002  : INCOTERMS Part 2
+	LKOND	IDOC delivery condition code	FCA
+	LKTEXT	IDOC delivery condition text	Cd. Juarez
+	SEGNUM	Segment Number	000030
+	SEGNAM	Segment Name	E1EDK18
+	QUALF	IDOC qualifier: Terms of payme	001  : Payment term 1
+	TAGE	IDOC Number of days	45
+	PRZNT	IDOC percentage for terms of p	0
+	ZTERM_TXT	Text line	Up to 21.12.2023 without deduction
+	SEGNUM	Segment Number	000031
+	SEGNAM	Segment Name	E1EDK18
+	QUALF	IDOC qualifier: Terms of payme	005  : Description of Payment Term
+	ZTERM_TXT	Text line	Within 45 days  net
+	SEGNUM	Segment Number	000032
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	MX
+	BRNUM	Bank Key	BNMXMXMM
+	BNAME	Bank name	Banco Nacional de Mexico SA
+	BALOC	Location of bank	Mexico
+	ACNUM	Account number in bank data	70134806107
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000033
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	MX
+	BRNUM	Bank Key	BNMXMXMM
+	BNAME	Bank name	Banco Nacional de Mexico SA
+	BALOC	Location of bank	Mexico
+	ACNUM	Account number in bank data	0230046042
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000034
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	DE
+	BRNUM	Bank Key	60070070
+	BNAME	Bank name	Deutsche Bank Stuttgart
+	BALOC	Location of bank	Stuttgart
+	ACNUM	Account number in bank data	160482600
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000035
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	US
+	BRNUM	Bank Key	071000288
+	BNAME	Bank name	FW071000288 HARRIS N.A.
+	BALOC	Location of bank	Chicago, 60606
+	ACNUM	Account number in bank data	3864147
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000036
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	DE
+	BRNUM	Bank Key	10101010
+	BNAME	Bank name	ITS Hausbank / Inhousebank
+	BALOC	Location of bank	GERLINGEN
+	ACNUM	Account number in bank data	000000904W
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000037
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	DE
+	BRNUM	Bank Key	10101010
+	BNAME	Bank name	ITS Hausbank / Inhousebank
+	BALOC	Location of bank	GERLINGEN
+	ACNUM	Account number in bank data	000000904W
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000038
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	US
+	BRNUM	Bank Key	021000021
+	BNAME	Bank name	FW021000021 J.P. Morgan Chase Bank
+	BALOC	Location of bank	New York
+	ACNUM	Account number in bank data	695692159
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000039
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	MX
+	BRNUM	Bank Key	000000001
+	BNAME	Bank name	HAUSBANK
+	ACNUM	Account number in bank data	9999999999
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000040
+	SEGNAM	Segment Name	E1EDK28
+	BCOUN	Country Key	DE
+	BRNUM	Bank Key	99999997
+	BNAME	Bank name	SFP Confirming Platform Banco Santander (no cashflow)
+	ACNUM	Account number in bank data	1000003203
+	ACNAM	Account holder in bank data	Robert Bosch S.de R.L.de C.V.
+	SEGNUM	Segment Number	000041
+	SEGNAM	Segment Name	E1EDK29
+	EXNUM	Number of foreign trade data i	0076083211
+	ALAND	Departure country (country fro	MX
+	GRWCU	Currency of statistical values	MXN
+	LAND1	Country Key	MX
+	LANDX	Country Name	Mexico
+	LANDA	Alternative Country Key	MX
+	FREIH	Indicator: Free Trade Area for	3  : NAFTA
+	JAP05	Japan: Five digit country code	305
+	ALANX	Country of dispatch - Descript	Mexico
+	ALANA	Alternative country key for co	MX
+	ALSCH	Alternative country key for so	MX
+	FREIHTX	Description	NAFTA
+	SEGNUM	Segment Number	000042
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	008  : Sales organization
+	ORGID	IDOC organization	904W
+	SEGNUM	Segment Number	000043
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	007  : Distribution channel
+	ORGID	IDOC organization	E0
+	SEGNUM	Segment Number	000044
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	006  : Division
+	ORGID	IDOC organization	01
+	SEGNUM	Segment Number	000045
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	015  : Billing Type
+	ORGID	IDOC organization	YF21
+	SEGNUM	Segment Number	000046
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	003  : Delivering company code
+	ORGID	IDOC organization	904W
+	SEGNUM	Segment Number	000047
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	021  : Sales Document Category
+	ORGID	IDOC organization	M
+	SEGNUM	Segment Number	000048
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	017  : Unloading Point
+	ORGID	IDOC organization	H22D
+	SEGNUM	Segment Number	000049
+	SEGNAM	Segment Name	E1EDK14
+	QUALF	IDOC qualifer organization	016  : Sales office
+	ORGID	IDOC organization	1004
+	SEGNUM	Segment Number	000050
+	SEGNAM	Segment Name	E1EDP01
+	POSEX	Item number	000001
+	MENGE	Quantity	480.000
+	MENEE	Unit of measure	PCE
+	NTGEW	Net weight	124.800
+	GEWEI	Weight unit	KGM
+	BRGEW	Total weight	124.800
+	PSTYV	Sales Document Item Category	YALM
+	WERKS	Plant	E877
+	SEGNUM	Segment Number	000051
+	SEGNAM	Segment Name	/RB04/YP3_E1EDP01_XML
+	UNIT_PRICE	Text string 22 characters	35.63
+	AMOUNT	Field length 18	17102.40
+	PROD_CODE	SAT Product/Service Code	25172100
+	UOM_CODE	SAT Unit of Measure Code	H87
+	SEGNUM	Segment Number	000052
+	SEGNAM	Segment Name	E1EDP02
+	QUALF	IDOC qualifier reference docum	001  : Customer Purchase Order
+	BELNR	IDOC document number	2200680105
+	SEGNUM	Segment Number	000053
+	SEGNAM	Segment Name	E1EDP02
+	QUALF	IDOC qualifier reference docum	002  : Vendor Order
+	BELNR	IDOC document number	0025653021
+	ZEILE	Item number	000010
+	DATUM	IDOC: Date	20230801
+	SEGNUM	Segment Number	000054
+	SEGNAM	Segment Name	E1EDP02
+	QUALF	IDOC qualifier reference docum	016  : Number of Preceding Document
+	BELNR	IDOC document number	1234433592
+	ZEILE	Item number	000001
+	DATUM	IDOC: Date	20231107
+	SEGNUM	Segment Number	000055
+	SEGNAM	Segment Name	E1EDP02
+	QUALF	IDOC qualifier reference docum	082  : Summarized JIT call
+	BELNR	IDOC document number	FY86289
+	SEGNUM	Segment Number	000056
+	SEGNAM	Segment Name	E1EDP03
+	IDDAT	Qualifier for IDOC date segmen	029  : Sales order date
+	DATUM	Date	20230801
+	SEGNUM	Segment Number	000057
+	SEGNAM	Segment Name	E1EDP03
+	IDDAT	Qualifier for IDOC date segmen	001  : Delivery date (supplier)
+	DATUM	Date	20231107
+	SEGNUM	Segment Number	000058
+	SEGNAM	Segment Name	E1EDP03
+	IDDAT	Qualifier for IDOC date segmen	011  : Date IDOC created
+	DATUM	Date	20231106
+	SEGNUM	Segment Number	000059
+	SEGNAM	Segment Name	E1EDP03
+	IDDAT	Qualifier for IDOC date segmen	025  : Created on
+	DATUM	Date	20231106
+	SEGNUM	Segment Number	000060
+	SEGNAM	Segment Name	E1EDP03
+	IDDAT	Qualifier for IDOC date segmen	027  : Date on which services rendered
+	DATUM	Date	20231106
+	SEGNUM	Segment Number	000061
+	SEGNAM	Segment Name	E1EDP03
+	IDDAT	Qualifier for IDOC date segmen	023  : Pricing date
+	DATUM	Date	20231106
+	SEGNUM	Segment Number	000062
+	SEGNAM	Segment Name	E1EDP19
+	QUALF	IDOC object identification suc	010  : Batch number
+	IDTNR	IDOC material ID	AB17282971
+	SEGNUM	Segment Number	000063
+	SEGNAM	Segment Name	E1EDP19
+	QUALF	IDOC object identification suc	001  : Material number used by customer
+	IDTNR	IDOC material ID	A1779009615
+	IDTNR_EXTERNAL	Length of Material (Future Dev	A1779009615
+	IDTNR_GUID	External GUID (Future Developm	00000000000000000000000000000000
+	SEGNUM	Segment Number	000064
+	SEGNAM	Segment Name	E1EDP19
+	QUALF	IDOC object identification suc	002  : Material number used by vendor
+	IDTNR	IDOC material ID	02850209512D3
+	KTEXT	IDOC short text	EL Control Unit;AB12
+	IDTNR_EXTERNAL	Length of Material (Future Dev	02850209512D3
+	IDTNR_GUID	External GUID (Future Developm	D673BDFC9E031EEDB4FA569F9AB89760
+	SEGNUM	Segment Number	000065
+	SEGNAM	Segment Name	E1EDP19
+	QUALF	IDOC object identification suc	007  : Commodity code
+	IDTNR	IDOC material ID	8543909900
+	SEGNUM	Segment Number	000066
+	SEGNAM	Segment Name	E1EDP19
+	QUALF	IDOC object identification suc	006  : Pricing reference material
+	IDTNR	IDOC material ID	0285020951P
+	SEGNUM	Segment Number	000067
+	SEGNAM	Segment Name	E1EDP19
+	QUALF	IDOC object identification suc	011  : Country of origin of material
+	IDTNR	IDOC material ID	MX
+	SEGNUM	Segment Number	000068
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	004  : Amount qualifying for cash discount
+	BETRG	Total value of sum segment	19838.78
+	SEGNUM	Segment Number	000069
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	003  : Net value
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000070
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	010  : Subtotal 1 from calculation procedure
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000071
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	011  : Subtotal 2 from calculation procedure
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000072
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	012  : Subtotal 3 from calculation procedure
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000073
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	013  : Subtotal 4 from calculation procedure
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000074
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	014  : Subtotal 5 from calculation procedure
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000075
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	015  : Subtotal 6 from calculation procedure
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000076
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	001  : Gross price
+	BETRG	Total value of sum segment	3563.00
+	SEGNUM	Segment Number	000077
+	SEGNAM	Segment Name	E1EDP26
+	QUALF	Qualifier amount	002  : Gross value
+	BETRG	Total value of sum segment	17102.40
+	SEGNUM	Segment Number	000078
+	SEGNAM	Segment Name	E1EDPA1
+	PARVW	Partner function (e.g. sold-to	RG   : Payer
+	PARTN	Partner number	1000030919
+	NAME1	Name 1	MERCEDES-BENZ MEXICO INTERNATIONAL
+	STRAS	Street and house number 1	SANTA FE 428-T3,P3
+	ORT01	City	CUAJIMALPA DE MORELOS
+	PSTLZ	Postal code	05348
+	LAND1	Country Key	MX
+	SPRAS	Language key	E
+	ORT02	District	SANTA FE CUAJIMALPA
+	HAUSN	House number	000000
+	REGIO	Region	CMX
+	SPRAS_ISO	2-Character SAP Language Code	EN
+	SEGNUM	Segment Number	000079
+	SEGNAM	Segment Name	E1EDPA1
+	PARVW	Partner function (e.g. sold-to	WE   : Ship-to party
+	PARTN	Partner number	1000039050
+	NAME1	Name 1	DAIMLER COMPRA Y MANUFACTURA
+	NAME2	Name 2	MEXICO S DE RL DE CV
+	NAME3	Name 3	COOPERATION MANUFACTURING PLANT
+	NAME4	Name 4	AGUASCALIENTES S.A.P.I. DE C.V.
+	STRAS	Street and house number 1	ACCESO 1 NORTE DE LA CARRETERA
+	ORT01	City	AQUASCALIENTES
+	PSTLZ	Postal code	20340
+	LAND1	Country Key	MX
+	ABLAD	Unloading Point	H22D
+	SPRAS	Language key	E
+	ORT02	District	COL PENUELAS
+	HAUSN	House number	000000
+	KNREF	Customer description of partne	F
+	SPRAS_ISO	2-Character SAP Language Code	EN
+	SEGNUM	Segment Number	000080
+	SEGNAM	Segment Name	E1EDP05
+	ALCKZ	Surcharge or discount indicato	+    : ID: Increase
+	KOTXT	Condition text	Gross
+	BETRG	Fixed surcharge/discount on to	17102.40
+	KRATE	Condition record per unit	3563.00
+	UPRBS	Price unit	100
+	MEAUN	Unit of measurement	PCE
+	KOEIN	Currency	USD
+	KOBAS	Base value to which condition	480
+	SEGNUM	Segment Number	000081
+	SEGNAM	Segment Name	E1EDP04
+	MWSKZ	VAT indicator	B2
+	MSATZ	VAT rate	16.000
+	MWSBT	Value added tax amount	2736.38
+	SEGNUM	Segment Number	000082
+	SEGNAM	Segment Name	E1EDP28
+	EXNUM	Number of foreign trade data i	0076083211
+	EXPOS	Internal item number for forei	000001
+	STAWN	Commodity Code/Import Code Num	8543909900
+	HERKL	Country of Origin of Material	MX
+	HERKR	Region of Origin of Material (	CHH
+	HERTA	Alternative country key for co	MX
+	HERTI	Description of country of expo	Mexico
+	STXT1	Description of commodity code	Other
+	BRULO	Total weight	124.800
+	NETLO	Net weight	124.800
+	VEMEH	Base Unit of Measure of the Qu	KGM
+	VERLD	Country of dispatch for Foreig	MX
+	VERLD_TX	Country Name	412 Mexico
+	WKREG	Region in which plant is locat	MEX
+	SEGNUM	Segment Number	000083
+	SEGNAM	Segment Name	E1EDS01
+	SUMID	Qualifier for totals segment f	001  : Number of items (purchase order count)
+	SUMME	Total value of sum segment	1
+	SEGNUM	Segment Number	000084
+	SEGNAM	Segment Name	E1EDS01
+	SUMID	Qualifier for totals segment f	012  : Amount qualifying for cash discount
+	SUMME	Total value of sum segment	19838.78
+	WAERQ	Currency	USD
+	SEGNUM	Segment Number	000085
+	SEGNAM	Segment Name	E1EDS01
+	SUMID	Qualifier for totals segment f	005  : Sales tax total
+	SUMME	Total value of sum segment	2736.38
+	WAERQ	Currency	USD
+	SEGNUM	Segment Number	000086
+	SEGNAM	Segment Name	E1EDS01
+	SUMID	Qualifier for totals segment f	011  : Billed value
+	SUMME	Total value of sum segment	19838.78
+	WAERQ	Currency	USD
+	SEGNUM	Segment Number	000087
+	SEGNAM	Segment Name	E1EDS01
+	SUMID	Qualifier for totals segment f	010  : Net invoice value
+	SUMME	Total value of sum segment	17102.40
+	WAERQ	Currency	USD
+	EDIDS	Status Records
+	EDIDS	Status Record Number	  1
+	STATUS	Status Value	01 : IDoc created
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	234024
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	234024
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  2
+	STATUS	Status Value	03 : Data passed to port OK
+	STAMQU/STAMID/STAMNO	Status Code	SAPEA083
+	STATXT	Message	IDoc sent to SAP system or external program
+	STAPA1	Parameter1	0A0318EBC25165496B580838
+	STAPA2	Parameter2	Creation TID: 0A0318EBC12565496B58548C
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	234024
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	234024
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program	LEDI7F10
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  3
+	STATUS	Status Value	14 : Interchange acknowledgment positive
+	STATXT	Message	EDImanager job_id: 330992639, file ref.: 0, mes. ref.: 1
+	STAPA1	Parameter1	0
+	STAPA2	Parameter2	1
+	STAPA3	Parameter3	1
+	STAPA4	Parameter4	330992639
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	234027
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	234027
+	UNAME	Last Edited By	EDIMANVTB
+	REPID	Status set by program
+	ROUTID	Status set by program
+	EDIDS	Status Record Number	  4
+	STATUS	Status Value	30 : IDoc ready for dispatch (ALE service)
+	STAMQU/STAMID/STAMNO	Status Code	SAPB1006
+	STATXT	Message	&, &, &, &
+	STAPA1	Parameter1	Receiver exists
+	STAPA2	Parameter2	No filters
+	STAPA3	Parameter3	No conversion
+	STAPA4	Parameter4	No version change
+	LOGDAT	Logged On	20231106
+	LOGTIM	Logged At	234024
+	CREDAT	Database Changed On	20231106
+	CRETIM	Database Changed At	234024
+	UNAME	Last Edited By	UC4CPIC
+	REPID	Status set by program
+	ROUTID	Status set by program
