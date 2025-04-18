@@ -1,0 +1,728 @@
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r aamdfr 
+Records |   1|   2|  10|  73|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r aamdjt 
+Records |   1|   2|  12|  83|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r adt830.0055 
+Records |   1|   1|   3|  11|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r adt830.0066 
+Records |   1|   1|   4|  19|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r agj830 
+Records |   1|   2|  16| 130|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r agj850 
+Records |   1|   3|  29| 130|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r agj860 
+Records |   1|   3|  33| 146|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r akb830 
+Records |   1|   2|  12| 104|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ama830 
+Records |   1|   2|  15| 110|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r amg830 
+Records |   1|   2|  14| 118|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r api830 
+Records |   1|   2|  11|  93|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r arw850 
+Records |   1|   2|   6|  68|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r axa862.0047 
+Records |   1|   1|   2|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bch830 
+Records |   1|   2|  14| 109|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ben862 
+Records |   1|   2|   9|  72|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bob850 
+Records |   1|   2|   6|  65|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bogdfr.0008 
+Records |   1|   2|   2|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bom850 
+Records |   1|   2|   6|  81|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bom860 
+Records |   1|   2|   6|  92|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r brp830.0037 
+Records |   1|   1|   5|  20|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r brp830.0041 
+Records |   1|   1|   5|  20|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r brp862.0038 
+Records |   1|   1|   5|  20|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r brp862.0042 
+Records |   1|   1|   5|  20|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r chr830.0066 
+Records |   1|   2|   4|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r chr830.0083 
+Records |   1|   2|   2|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cmpdfr 
+Records |   1|   2|  10|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cnh810 
+Records |   1|  12|  27| 120|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cnh830.0010 
+Records |   1|   2|   4|  14|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cnh830 
+Records |   1|   2|  14| 108|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r coadlf 
+Records |   1|   2|  14| 130|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r coadlj 
+Records |   1|   2|  14| 131|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r com862.0086 
+Records |   1|   1|   1|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r com862.0088 
+Records |   1|   1|   1|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ctcdfr.0007 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ctl862 
+Records |   1|   2|  10|  94|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ctldjt 
+Records |   1|   2|  14| 131|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ctlinv 
+Records |   1|   2|   3|  50|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cumdfr.0030 
+Records |   1|   2|   2|  25|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cumdfr.0031 
+Records |   1|   1|   1|   2|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cumdjt 
+Records |   1|   2|  11|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dao824 
+Records |   1|   2|  22|  71|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dao830 
+Records |   1|   2|  14| 126|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dao850 
+Records |   1|   2|   7| 107|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dao860 
+Records |   1|   3|  13| 122|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ddi862 
+Records |   1|   2|   8|  67|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dgk850 
+Records |   1|   2|   6|  75|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dml830.0067 
+Records |   1|   1|   1|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dml830.0067-2 
+Records |   1|   1|   1|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dml830.0067-3 
+Records |   1|   1|   1|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dmsdlf.0022 
+Records |   1|   1|   2|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dmsdlf.0050 
+Records |   1|   1|   2|   5|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dmxdfr 
+Records |   1|   2|  14| 134|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dmxdjt 
+Records |   1|   2|  13| 126|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dns830 
+Records |   1|   2|  14| 109|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dns862 
+Records |   1|   2|   4|  67|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dtn850.0023 
+Records |   1|   1|   3|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dxa850 
+Records |   1|   2|   6|  62|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dxt850 
+Records |   1|   2|   6|  70|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dyn850 
+Records |   1|   2|   6|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r faudfr 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r fdy830 
+Records |   1|   2|  15| 138|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ficdfr 
+Records |   1|   2|  10|  74|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r flx830 
+Records |   1|   2|  13| 116|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r for820 
+Records |   1|   4|  25| 110|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r fxg830.0034 
+Records |   1|   1|   2|   8|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r fxg830.0080 
+Records |   1|   2|   3|  19|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r fxg830.0104 
+Records |   1|   2|   4|  20|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gan830 
+Records |   1|   2|   9|  67|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gkndfr.0073 
+Records |   1|   1|   2|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gkndfr.0075 
+Records |   1|   1|   2|   8|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gkndjt.0074 
+Records |   1|   1|   2|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gkndjt.0076 
+Records |   1|   1|   2|  14|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmadjt.0019 
+Records |   1|   2|   2|   5|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdfr.0051 
+Records |   1|   1|   5|  18|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdfr.0069 
+Records |   1|   1|   6|  30|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdfr.0070 
+Records |   1|   1|   6|  34|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdjt.0020 
+Records |   1|   2|   2|  26|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdjt.0052 
+Records |   1|   2|   5|  38|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdjt.0068 
+Records |   1|   2|   8|  56|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmcdjt.0071 
+Records |   1|   2|   8|  60|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r gmodfr.0021 
+Records |   1|   1|   2|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hag830 
+Records |   1|   2|  12|  99|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hag850 
+Records |   1|   2|   7|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hdk830 
+Records |   1|   2|  12| 104|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hin830.0061 
+Records |   1|   1|   1|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hin850 
+Records |   1|   2|   6|  79|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hon830.0024 
+Records |   1|   2|   3|  10|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hon830.0029 
+Records |   1|   2|   4|  12|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hon830.0101 
+Records |   1|   2|   4|  12|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hon850 
+Records |   0|   0|   5|  77|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hon862 
+Records |   1|   2|   5|  64|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hrb820 
+Records |   1|   2|  15|  75|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r intdfr 
+Records |   1|   2|  14| 126|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r intdjt 
+Records |   1|   2|  14| 131|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r jat830 
+Records |   1|   3|  16| 111|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r jdr830.0018 
+Records |   1|   2|   2|   5|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r jdrdfr 
+Records |   1|   2|  13| 112|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r jdrdjt 
+Records |   1|   2|  12|  80|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r jel850 
+Records |   1|   2|   5|  71|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r kaw830 
+Records |   1|   2|  14| 108|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r kaw850 
+Records |   1|   2|   6|  96|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r kaw860 
+Records |   1|   2|   6|  96|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r krmdfr 
+Records |   1|   2|  10|  69|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ktcdfr.0005 
+Records |   1|   1|   1|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r ktxdfr 
+Records |   1|   2|  11| 105|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r kwj830 
+Records |   1|   2|  15| 111|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lea830.0102 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lea862.0103 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r len830 
+Records |   1|   2|  10|  81|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucapk 
+Records |   1|   2|  21|  69|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucctl 
+Records |   1|   2|   2|  42|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucdfr 
+Records |   1|   2|  15| 162|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucdjt 
+Records |   1|   2|   7| 122|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucorc 
+Records |   1|   3|  36| 197|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucord 
+Records |   1|   3|  35| 193|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucrec 
+Records |   1|   2|   5|  21|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mahdfr 
+Records |   1|   2|  14| 130|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mbhdfr 
+Records |   1|   2|  10|  74|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mbu830.0036 
+Records |   1|   1|   1|   0|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mchdfr 
+Records |   1|   2|  10|  74|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mchdjt 
+Records |   1|   2|  12|  76|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mga830.0011 
+Records |   1|   2|   3|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mga830.0085 
+Records |   1|   2|   3|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgc862 
+Records |   1|   2|  11|  95|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgk830 
+Records |   1|   2|  15| 144|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgk862 
+Records |   1|   2|  10| 105|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgm830 
+Records |   1|   2|  15| 138|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgp830 
+Records |   1|   2|  16| 140|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgx830.0054 
+Records |   1|   1|   3|  12|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgx830.0058 
+Records |   1|   1|   3|  12|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgx830.0060 
+Records |   1|   1|   4|  15|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgx830.0070 
+Records |   1|   1|   4|  17|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mgx862 
+Records |   1|   2|  13| 109|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mob862.0072 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r mob862 
+Records |   1|   3|  18| 195|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r msr850 
+Records |   1|   2|   6|  75|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nav830.0025 
+Records |   1|   1|   1|   4|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nav830.0026 
+Records |   1|   1|   1|   2|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nav846 
+Records |   1|   2|   3|  52|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nav862 
+Records |   1|   2|   8|  67|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nik830 
+Records |   1|   2|  10|  96|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nik862 
+Records |   1|   2|  11|  95|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0040 
+Records |   1|   2|   3|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0040-1 
+Records |   1|   2|   3|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0045 
+Records |   1|   2|   3|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0046 
+Records |   1|   3|  28|  79|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0046-1 
+Records |   1|   3|  28|  79|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0048 
+Records |   1|   3|  28|  79|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0084 
+Records |   1|   3|  29|  81|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nmx830.0089 
+Records |   1|   3|  29|  80|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r npl830.0013 
+Records |   1|   1|   2|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r npl830.0043 
+Records |   1|   1|   3|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r npl830.0043-1 
+Records |   1|   1|   3|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r npl862.0044 
+Records |   1|   1|   3|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r npl862.0044-1 
+Records |   1|   1|   3|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsa830 
+Records |   1|   3|  11|  81|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm820 
+Records |   1|   4|   6| 137|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0023 
+Records |   1|   2|   2|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0053 
+Records |   1|   3|  29|  86|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0056 
+Records |   1|   3|  29|  86|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0057 
+Records |   1|   3|  29|  86|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0059 
+Records |   1|   3|  29|  86|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0062 
+Records |   1|   3|  29|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0063 
+Records |   1|   3|  29|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0077 
+Records |   1|   4|  30|  89|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0082 
+Records |   1|   4|  30|  92|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsm830.0090 
+Records |   1|   4|  30|  93|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsn830.0039 
+Records |   1|   2|   2|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsn830.0078 
+Records |   1|   3|   3|   8|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nsn830.0091 
+Records |   1|   3|   3|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvrdfr 
+Records |   1|   2|  11|  81|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvs830.0006 
+Records |   1|   1|   5|  11|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvs830.0049 
+Records |   1|   1|   7|  24|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvs830.0049-1 
+Records |   1|   1|   7|  25|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvs830.0064 
+Records |   1|   1|   7|  25|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvs850.0003 
+Records |   1|   1|   2|   4|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvs850 
+Records |   1|   2|   6|  98|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nxtdjt 
+Records |   0|   0|   0|   0|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r osh830 
+Records |   1|   2|  15| 118|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r osh850 
+Records |   1|   2|   6|  83|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r osh860 
+Records |   1|   2|   6|  94|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pkr850 
+Records |   1|   2|   6|  85|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r plx830 
+Records |   1|   2|  15| 111|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r plx862 
+Records |   1|   2|   9|  71|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pol812 
+Records |   1|   2|   6|  36|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pol850 
+Records |   1|   2|   6|  62|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pol860 
+Records |   1|   2|   6|  72|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pol862 
+Records |   1|   2|   6|  90|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pomdfr 
+Records |   1|   2|   9|  60|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pomdfr.0070 
+Records |   1|   1|   3|   7|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv820 
+Records |   1|   2|  18|  79|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv824 
+Records |   1|   2|  24|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv830 
+Records |   1|   2|  17| 127|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv850 
+Records |   1|   2|  24|  93|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv860 
+Records |   1|   2|  26|  98|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv862 
+Records |   1|   2|   6|  82|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r saa830 
+Records |   1|   2|  11|  98|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sbr830.0099 
+Records |   1|   2|   4|   6|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sbr862.0100 
+Records |   1|   2|   2|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sch830 
+Records |   1|   2|  10|  83|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sew830 
+Records |   1|   2|  15| 111|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r shy830 
+Records |   1|   2|  15| 125|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r shy862 
+Records |   1|   2|  13| 101|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r smr830 
+Records |   1|   2|  15| 123|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r smr862 
+Records |   1|   2|  11|  93|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sum830 
+Records |   1|   2|   9|  68|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sum850 
+Records |   1|   2|   5|  53|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tes830 
+Records |   1|   2|  11|  94|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tes862 
+Records |   1|   2|  11|  93|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r thydf1 
+Records |   1|   2|  14| 126|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r thydfr 
+Records |   1|   2|  15| 127|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tiadfr.0081 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tifdfr 
+Records |   1|   2|   3|  81|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tkndfr.0016 
+Records |   1|   1|   4|  15|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tradfr 
+Records |   1|   2|  15| 119|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r trc850 
+Records |   1|   2|   6|  70|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tya830 
+Records |   1|   2|   9|  67|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r tya862 
+Records |   1|   2|   6|  71|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r valdfr 
+Records |   1|   2|  10|  74|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r valdjt 
+Records |   1|   2|  14| 107|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vitdfr.0001 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vlm830 
+Records |   1|   2|  12| 113|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vlmdfr 
+Records |   1|   1|   2|   8|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vltdfr.0065 
+Records |   1|   1|   1|   4|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>rem ..\bin\edimaps map -r vtsdfr.0087 
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vwadfr.0035 
+Records |   1|   1|   1|   5|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vwadfr.0035-1 
+Records |   1|   1|   1|   5|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vwmdfr.0002 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vwmdfr.0017 
+Records |   1|   1|   1|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vwsdfr 
+Records |   1|   2|  11|  89|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r yfgdfr 
+Records |   1|   2|  10|  74|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r yfgdjt 
+Records |   1|   2|  12|  80|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r yindfr 
+Records |   1|   2|  10|  74|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r yindjt 
+Records |   1|   2|  12|  76|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r yzk830 
+Records |   1|   2|  12|  87|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zfpdfr 
+Records |   1|   2|  16| 139|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zftdfr.0027 
+Records |   1|   1|   1|   1|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zftdfr.0032 
+Records |   1|   1|   2|   9|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zftdfr.0033 
+Records |   1|   1|   2|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zftdfr 
+Records |   1|   2|  17| 151|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zftdjt 
+Records |   1|   2|   7| 129|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r zftord 
+Records |   1|   3|  33| 200|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>pause
+Press any key to continue . . . 

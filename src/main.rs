@@ -27,28 +27,28 @@ fn main() {
       ini_repo(&rc.general.dbopt, file);
     }
     Some(Commands::Add{ file, refer, def }) => {
-      if *refer && *file == "cdcodes".to_string() {
+             if *refer && *file == "cdcodes".to_string() {
         add_cdcodes (&rc.general.dbopt, format!("{}_codes.json",  rc.refers.refdr));
-      } else if *refer && *file == "cddata".to_string() {
+      } else if *refer && *file == "cddata".to_string()  {
         add_cddata  (&rc.general.dbopt, format!("{}_transp.json", rc.refers.refdr));
-      } else if *refer && *file == "index".to_string() {
-        add_index   (&rc.general.dbopt, &rc.refers.idxpt, &rc.refers.tabid);
-      } else if *refer && *file == "idoctp".to_string() {
+      } else if *refer && *file == "index".to_string()   {
+        add_index   (&rc.general.dbopt, &rc.refers.idxpt,        &rc.refers.tabid);
+      } else if *refer && *file == "idoctp".to_string()  {
         add_idoctp  (&rc.general.dbopt, format!("{}idoctp.json",  rc.refers.refdr));
-      } else if *refer && *file == "wkflow".to_string() {
+      } else if *refer && *file == "wkflow".to_string()  {
         add_wkflow  (&rc.general.dbopt, format!("{}wkflow.json",  rc.refers.refdr));
       } else if *def {
-        add_definitn(&rc.general.dbopt, &format!("{}{}", rc.refers.defdr, *file));
+        add_definitn(&rc.general.dbopt, &format!("{}{}",          rc.refers.defdr, *file));
       }
     }
-    Some(Commands::Map{ file, repo, json }) => {
+    Some(Commands::Map{ file, repo, json, text }) => {
       let mapid = file.to_string();
       let flds: Vec<&str> = mapid.split('.').collect();
       rc.maps.mapid = flds[0].to_string();
       if flds.len() > 1 {
         rc.maps.chgnr = flds[1].to_string();
       }
-      proc_maps(&rc.general.dbopt, &rc.refers, &rc.maps, *repo, *json);
+      proc_maps(&rc.general.dbopt, &rc.refers, &rc.maps, *repo, *json, *text);
     }
     Some(Commands::Out{ templ, list, count }) => {
       let mut omode: String = "count".to_string();

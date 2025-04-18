@@ -37,6 +37,9 @@ enum Commands {
     /// Generate JSON output file
     #[arg(short, long)]
     json: bool,
+    /// Generate TXT output file
+    #[arg(short, long)]
+    text: bool,
   },
   /// Generates output of list and counters of records in mapping specifications
   Out {

@@ -1,5 +1,5 @@
 [general]
-home  = "c:\\users\\bar8tl\\onedri~1\\general\\inboun~1\\"
+home  = "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\"
 dbopt = ".\\edimaps.db"
 
 [refers]
@@ -10,6 +10,8 @@ defdr = "~\\_edibb~1\\_assets\\idoctypes\\"
 
 [maps]
 mapdr = "~\\"
-bkpdr = "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\"
+bkpdr = "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\text\\"
+nodat = "no"
+omite = "yes"
 
 [wkflow]

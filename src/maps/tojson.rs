@@ -1,5 +1,5 @@
 // tojson.rs - Function modules being used to convert MS Excel mapping specification
-// files to json text mode format(2021-07-01 bar8tl)
+// files to json text mode format (2021-07-01 bar8tl)
 use crate::maps::proc_maps::{CrTp, IdxdatTp};
 use serde::Serialize;
 use std::fs::File;
@@ -146,6 +146,7 @@ pub fn isrt_crflds_json(cl: &[String; 7], cr: &CrTp, sp: &mut SpecsTp) {
 
 pub fn write_cr_json(bkpdr: &String, d: &IdxdatTp, sp: &SpecsTp) {
   let ofnam = d.fname.replace(".xlsx", ".json");
+//  println!("out json = {} {}", bkpdr, ofnam);
   let mut file = File::create(format!("{}{}", bkpdr, ofnam)).expect("error");
   let fdata = serde_json::to_string_pretty(sp).unwrap();
   let bdata: &[u8] = fdata.as_bytes();

@@ -1,0 +1,88 @@
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r agd810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  12|  37| 155|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r agj810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  12|  37| 155|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bdx810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  13|  30| 116|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r bob810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|   4|  31| 144|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r cnh810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  12|  27| 120|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dgk810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  11|  45| 182|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dtn810.0024 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|   2|   2|   4|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r dyn810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|   8|  19| 109|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r hag810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  11|  43| 176|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r jdrinv 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  56|  85| 625|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r kaw810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  13|  43| 164|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r luccto 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|   2|   2|  50|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r lucinv 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  25|  38| 155|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r msr810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  11|  43| 176|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r nvrinv 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  29|  42| 410|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pac810.0028 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|   3|   3|   4|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pac810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  13|  43| 164|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r pol810.0102 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|   3|   3|   3|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r riv810 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  14|  58| 218|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r sesinv 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Records |   1|  22|  39| 149|
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>rem ..\bin\edimaps map -r tya810 
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vlminv 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps map -r vltinv 
+ConfigTp { general: GeneralTp { home: "c:\\users\\bar8tl\\onedri~1\\edi-rbna\\inboun~1\\", dbopt: ".\\edimaps.db" }, refers: RefersTp { refdr: "~\\_edibb~1\\_assets\\sapcodes\\", idxpt: "~\\_index\\_edirbna_mapping-index.xlsx", tabid: "idx", defdr: "~\\_edibb~1\\_assets\\idoctypes\\" }, maps: MapsTp { mapid: "", chgnr: "", mapdr: "~\\", bkpdr: "~\\_edibb~1\\_tools\\edimaps\\_edirbna_mapping-backup\\json\\", pmode: "", trims: "", nodat: "no", omite: "yes", ndchr: "", lfchr: "" }, wkflow: WkflowTp { cntrl: "", clien: "", rcvpf: "" } }

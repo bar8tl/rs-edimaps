@@ -1,0 +1,445 @@
+BEGIN_MAPPING_SPECS
+  BEGIN_HEADER_RECORD
+    TITLE               Common Mapping EDIFACT for UBK/RM
+    LAST_UPDATE         2020-05-04
+    AUTHOR              RBEI/EBS1-MX Barrera Ricardo
+    VERSION             V1.3
+    CUSTOMER            AA-International
+    TARGET_FORMAT       DELINS/DELFOR02
+    SOURCE_FORMAT       EDIFACT DELFOR D97A
+  END_HEADER_RECORD
+  BEGIN_GROUP           CTRL
+    BEGIN_SEGMENT       EDI_DC
+      NAME              EDI_DC40
+      LOOP_MAX          One per IDOC
+      STATUS            Required
+      BEGIN_FIELDS
+        FIELD           <empty>
+        SOURCE           LAB
+        TEXT            Technical Information for Identification of IDoc
+
+        FIELD           <empty>
+        RULE_COND       Each LIN segment triggers a new IDoc
+
+        FIELD           DIRECT
+        SOURCE          '2'
+        RULE_COND       2
+
+        FIELD           IDOCTYP
+        SOURCE          'DELFOR02'
+        RULE_COND       DELFOR02
+
+        FIELD           CIMTYP
+
+        FIELD           MESTYP
+        SOURCE          'DELINS'
+        RULE_COND       DELINS
+
+        FIELD           STD
+        COMMENT         EDI-Standard
+
+        FIELD           STDVRS
+        SOURCE          SG0-UNH-S009-0052
+        COMMENT         EDI-VERSION
+        SAMPLE          UNH+1+DELFOR:D:97A:UN'
+
+        FIELD           STDMES
+        SOURCE          SG0-UNH-S009-0065
+        COMMENT         Message Type
+        SAMPLE          UNH+1+DELFOR:D:97A:UN'
+
+        FIELD           SNDPOR
+        SOURCE          SNDPOR
+        RULE_COND       EDIMANVTB
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           SNDPRT
+        SOURCE          'KU'
+        RULE_COND       KU
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           SNDPRN
+        SOURCE          SNDPRN
+        RULE_COND       1000046570
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           SNDPFC
+        SOURCE          'AG'
+        RULE_COND       AG (SP)
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           SNDLAD
+        SOURCE          'ZZ' + '*' + SG7-NAD-C082-3039
+        RULE_COND       SG7-NAD-3035 = 'ST'
+        COMMENT         Result = 'ZZ*400104134'
+        SAMPLE          NAD+ST+400104134::16++LUXEMBOURG DRIVELINE DIRECT'
+
+        FIELD           RCVPOR
+        SOURCE          'SAPPOE'
+        RULE_COND       SAPPOE
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           RCVPRT
+        SOURCE          'LS'
+        RULE_COND       LS
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           RCVPRN
+        SOURCE          'SAPPOE'
+        RULE_COND       SAPPOE
+        COMMENT         AIM Konfiguration Parameter
+
+        FIELD           RCVLAD
+        SOURCE          'ZZ' + '*' + SG2-NAD-C082-3039
+        RULE_COND       SG2-NAD-3035 = 'SU'
+        COMMENT         Result = 'ZZ*820046613'
+        SAMPLE          NAD+SU+820046613::16'
+
+        FIELD           CREDAT
+        SOURCE          Sysdate
+
+        FIELD           CRETIM
+        SOURCE          Systime
+
+        FIELD           REFINT
+        SOURCE          SG0-UNB-0020
+        COMMENT         Interchange number
+        SAMPLE          UNB+UNOA:2+XLP:ZZ+820046613:1+200115:1054+4959++AAMDELFOR'
+
+        FIELD           REFMES
+      END_FIELDS
+    END_SEGMENT
+  END_GROUP
+  BEGIN_GROUP           MAIN
+    BEGIN_SEGMENT       E1EDK09
+      NAME              E2EDK09003
+      LOOP_MAX          One per IDOC
+      STATUS            Required
+      BEGIN_FIELDS
+        FIELD           VTRNR
+        SOURCE          SG13-RFF-C506-1154
+        RULE_COND       SG13-RFF-C506-1153 = 'ON'
+        COMMENT         Customer PO number / Kundenauftragsnummer
+        SAMPLE          RFF+ON:31975'
+
+        FIELD           BSTDK
+        SOURCE          SG0-DTM-C507-2380
+        RULE_COND       SG0-DTM-C507-2005 = '137'
+        COMMENT         Customer purchase order date / Kundenbestelldatum. In form CCYYMMDD
+        SAMPLE          DTM+137:20200114:102'
+        TEXT            Bestelldatum
+
+        FIELD           LABNK
+        SOURCE          SG0_BGM_C106_1004
+        RULE_COND       SG0_BGM-_002_1001 = '241'
+        COMMENT         Customer Release Number. Lieferabrufnummer
+        SAMPLE          BGM+241+20200114-1464685+5'
+        TEXT            Release number
+        CHANGE          04.05.2020 BAR8TL
+
+        FIELD           ABRVW
+        SOURCE          'S'
+        RULE_COND       constant 'S'
+        COMMENT         Usage Indicator
+        TEXT            Ordering type
+
+        FIELD           ABNRA
+        RULE_COND       not used
+        COMMENT         Customer Release Number old /  Lieferabrufnummer alt
+
+        FIELD           ABNRD
+        RULE_COND       not used
+        COMMENT         Delivery Schedule Date / Liefertermindatum. In form CCYYMMDD
+
+        FIELD           KTEXT_V
+        SOURCE          SG2-NAD-C082-3039
+        RULE_COND       SG2-NAD-3035 = 'SU'
+        COMMENT         Supplier Code / Lieferantennummer
+        SAMPLE          NAD+SU+820046613::16'
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDKA1
+      NAME              E2EDKA1003
+      LOOP_MAX          Many per IDOC
+      STATUS            Required
+      BEGIN_FIELDS
+        FIELD           PARVW
+        SOURCE          'AG'
+        RULE_COND       constant 'AG'
+        COMMENT         Sold-To / Auftraggeber
+        TEXT            Sold-to
+
+        FIELD           PARTN
+        SOURCE          SG2-NAD-C082-3039
+        RULE_COND       SG2-NAD-3035 = 'SU'
+        COMMENT         supplier number / Lieferantennummer
+        SAMPLE          NAD+SU+820046613::16'
+
+        FIELD           LIFNR
+        SOURCE          SG2-NAD-C082-3039
+        RULE_COND       SG2-NAD-3035 = 'MI'
+        COMMENT         Kundenidentifikationsnummer
+        SAMPLE          NAD+MI+400104134::16++LUXEMBOURG DRIVELINE DIRECT'
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDKA1
+      NAME              E2EDKA1003
+      LOOP_MAX          Many per IDOC
+      STATUS            Optional
+      BEGIN_FIELDS
+        FIELD           PARVW
+        SOURCE          'AB'
+        RULE_COND       constant 'AB'
+        COMMENT         Customer data
+        TEXT            Kundenwerk
+
+        FIELD           PARTN
+        SOURCE          SG12-LOC-C517-3225
+        RULE_COND       SG12-LOC-3227 = '11'
+        COMMENT         Unloading point / Abladestelle
+        SAMPLE          Not in the example
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDP10
+      NAME              E2EDP10002
+      LOOP_MAX          One record per item, one item per IDOC
+      STATUS            Required
+      BEGIN_FIELDS
+        FIELD           IDNKD
+        SOURCE          SG12-LIN-C212-7140
+        RULE_COND       SG12-LIN-C212-7143 = 'IN'
+        COMMENT         Customer material number / Kundenmaterialnummer
+        SAMPLE          LIN+++47901 EZ00A:IN'
+        TEXT            Positionsnummer (ext.)
+
+        FIELD           ARKTX
+        RULE_COND       not used
+        COMMENT         EDI product short text / Artikelkurztext EDI
+
+        FIELD           VRKME
+        SOURCE          BLANK
+        COMMENT         Sales unit / Verkaufsmengeneinheit
+
+        FIELD           KWERK
+        SOURCE          SG7-NAD-C082-3039
+        RULE_COND       SG7-NAD-3035 = 'ST'
+        COMMENT         Customer plant / Werk des Kunden
+        SAMPLE          NAD+ST+400104134::16++LUXEMBOURG DRIVELINE DIRECT'
+
+        FIELD           KLGOR
+        RULE_COND       not used
+        COMMENT         Storage Location of Customer / Lagerort des Kunden
+
+        FIELD           DFABL
+        SOURCE          SG12-LOC-C517-3225
+        RULE_COND       SG12-LOC-3227 = '11'
+        COMMENT         Unloading point / Abladestelle
+        SAMPLE          Not in the example
+
+        FIELD           VBRST
+        RULE_COND       not used
+        COMMENT         Point of consumption / Verbrauchsstelle
+
+        FIELD           BELNR
+        SOURCE          SG13-RFF-C506-1154
+        RULE_COND       SG13-RFF-C506-1153 = 'AAU'
+        COMMENT         Delivery Schedule No / Lieferscheinnummer
+        SAMPLE          Not in the example
+
+        FIELD           LFIMG
+        SOURCE          SG12-QTY-C186-6060
+        RULE_COND       SG12-QTY-C186-6063 = '48'
+        COMMENT         Delivery Schedule quantity  / Lieferscheinmenge
+        SAMPLE          Not in the example
+
+        FIELD           LIDTL
+        SOURCE          SG12-DTM-C507-2380
+        RULE_COND       SG12-DTM-C507-2005 = '50'
+        COMMENT         Date of latest recorded from customer delivery / Datum der letzten vom Kunden verbuchten Lieferung. In form CCYYMMDD
+        SAMPLE          Not in the example
+
+        FIELD           AKUBM
+        RULE_COND       not used
+        COMMENT         Authorized cumulated quantity
+
+        FIELD           AKUEM
+        SOURCE          SG12-QTY-C186-6060
+        RULE_COND       SG12-QTY-C186-6063 = '3'
+        COMMENT         Previous cumulative quantity  / Fortschrittszahl
+        SAMPLE          QTY+3:3240:C62'
+
+        FIELD           LABKY
+        SOURCE          '2'
+        RULE_COND       constant '2'
+        COMMENT         Delivery schedule key / Verarbeitungsart
+
+        FIELD           ABRAB
+        RULE_COND       not used
+        COMMENT         Effective From Date, coded. In form CCYYMMDD
+
+        FIELD           ABRBI
+        RULE_COND       not used
+        COMMENT         Effective To Date, coded. In form CCYYMMDD
+
+        FIELD           SCREL
+        SOURCE          '03'
+        RULE_COND       constant '03'
+        COMMENT         Release schedule:\n'02'=Feinabruf / Deliv Plan\n'03'=Lieferabruf / Deliv Order
+
+        FIELD           IDNLF
+        SOURCE          SG12-PIA-1-C212-7140
+        RULE_COND       SG12-PIA-4347 = '1'
+        COMMENT         Supplier's article number / Lieferanten-Typ-Teile-Nummer
+        SAMPLE          PIA+1+0:RY'
+
+        FIELD           ABNRD
+        RULE_COND       not used
+        COMMENT         Delivery Schedule Date / Liefertermindatum. In form CCYYMMDD
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDP36
+      NAME              E2EDP36
+      LOOP_MAX          One per item
+      STATUS            Optional, if more than one last delivery
+      BEGIN_FIELDS
+        FIELD           BELNR
+        SOURCE          SG13-RFF-C506-1154
+        RULE_COND       SG13-RFF-C506-1153 = 'AAU'
+        COMMENT         Delivery Number  / Lieferscheinnummer
+        SAMPLE          Not in the example
+
+        FIELD           LFIMG
+        SOURCE          SG12-QTY-C186-6060
+        RULE_COND       SG12-QTY-C186-6063 = '48'
+        COMMENT         Delivery quantity received  / Lieferscheinmenge
+        SAMPLE          Not in the example
+
+        FIELD           LIDTL
+        SOURCE          SG12-DTM-C507-2380
+        RULE_COND       SG12-DTM-C507-2005 = '50'
+        COMMENT         Delivery quantity shipped  / Lieferscheinmenge
+        SAMPLE          Not in the example
+
+        FIELD           AKUBM
+        RULE_COND       not used
+        COMMENT         Authorized cumulated quantity
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDP14
+      NAME              E2EDP14
+      LOOP_MAX          One per item
+      STATUS            Optional
+      BEGIN_FIELDS
+        FIELD           PCKNR
+        RULE_COND       not used
+        COMMENT         Packing Identification / Packstücknummer des Kunden
+
+        FIELD           ANZAR
+        RULE_COND       not used
+        COMMENT         Number of packages / Anzahl Artikel pro Packstück
+
+        FIELD           MAZAR
+        RULE_COND       not used
+        COMMENT         Masseinheit von Art/Packstück
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDP15
+      NAME              E2EDP15001
+      LOOP_MAX          Many per item
+      STATUS            Required
+      BEGIN_FIELDS
+        FIELD           TDNAME
+        SOURCE          'YAQU'
+        RULE_COND       constant 'YAQU'
+        COMMENT         Source code
+        TEXT            Text
+
+        FIELD           SPRAS
+        SOURCE          'EN'
+        RULE_COND       constant 'EN'
+        COMMENT         Language for texts
+
+        FIELD           TXT01
+        SOURCE          'CUST'
+        RULE_COND       constant 'CUST'
+        COMMENT         Customer as source of message
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDP15
+      NAME              E2EDP15001
+      LOOP_MAX          Many per item
+      STATUS            Optional
+      BEGIN_FIELDS
+        FIELD           TDNAME
+        SOURCE          'YADT'
+        RULE_COND       constant 'YADT'
+        COMMENT         Additional Informations customer / Zusatzinformationen pro Kunde
+        TEXT            Zusatzdaten
+
+        FIELD           SPRAS
+        SOURCE          'EN'
+        RULE_COND       constant 'EN'
+        COMMENT         Language for texts
+
+        FIELD           TXT01
+        SOURCE          '1200'
+        RULE_COND       constant '1200'
+        COMMENT         Customer Material Description text code
+
+        FIELD           TXT02
+        RULE_COND       not used
+        COMMENT         Customer Material Description
+
+        FIELD           TXT03
+        SOURCE          '1210'
+        RULE_COND       constant '1210'
+        COMMENT         EDI Sender text code
+
+        FIELD           TXT04
+        SOURCE          SG2-NAD-C082-3039
+        RULE_COND       SG2-NAD-3035 = 'MI'
+        COMMENT         EDI Sender
+        SAMPLE          NAD+MI+400104134::16++LUXEMBOURG DRIVELINE DIRECT'
+      END_FIELDS
+    END_SEGMENT
+    BEGIN_SEGMENT       E1EDP16
+      NAME              E2EDP16002
+      LOOP_MAX          Many per item
+      STATUS            Required
+      BEGIN_FIELDS
+        FIELD           ETTYP
+        SOURCE          SG17-SCC-4017
+        RULE_COND       SG17-SCC-4017
+        COMMENT         Delivery plan status / Lieferplan-Status\n1=Firm\n4=Planning/Forecast
+        SAMPLE          SCC+1++W'
+
+        FIELD           PRGRS
+        SOURCE          'D'
+        RULE_COND       constant 'D'
+        COMMENT         Date type / Terminkennzeichen\nD=Daily; W=Weekly; M=Monthy; I=Interval
+
+        FIELD           EDATUV
+        SOURCE          SG18-DTM-C507-2380
+        RULE_COND       SG18-DTM-C507-2005 = '158'\n\nif not available:\nSG18-DTM-C507-2005 = '159'
+        COMMENT         Schedule line date from. In form CCYYMMDD
+        SAMPLE          DTM+158:20200120:102'
+        CHANGE          04.02-2020: BAR8TL
+
+        FIELD           EDATUB
+        SOURCE          SG18-DTM-C507-2380\nIf not available then EDATUV
+        RULE_COND       SG18-DTM-C507-2005 = '159'
+        COMMENT         Schedule line date until. In form CCYYMMDD
+        SAMPLE          not in example
+
+        FIELD           WMENG
+        SOURCE          SG18-QTY-C186-6060
+        RULE_COND       SG18-QTY-C186-6063 = '1'
+        COMMENT         Released quantity / Kundenwunschmenge
+        SAMPLE          QTY+1:1080:C62'
+        TEXT            Auftragsmenge
+      END_FIELDS
+    END_SEGMENT
+  END_GROUP
+END_MAPPING_SPECS
+
+Records |   1|   2|  10|  73|

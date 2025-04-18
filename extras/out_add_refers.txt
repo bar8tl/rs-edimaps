@@ -1,0 +1,19 @@
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps add -r cdcodes 
+Table 'cdindex' uploaded.
+Table 'cdcodes' uploaded.
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps add -r cddata 
+Table 'cddata' uploaded.
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps add -r idoctp 
+Table 'idoctp' uploaded.
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps add -r index 
+Table 'indix' uploaded.
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>..\bin\edimaps add -r wkflow 
+Table 'wkflow' uploaded.
+
+C:\Users\bar8tl\OneDrive - Bosch Group\edi-rbna\inbound_na_edispecs\_edibbm-kt\_tools\edimaps\extras>pause
+Press any key to continue . . . 
